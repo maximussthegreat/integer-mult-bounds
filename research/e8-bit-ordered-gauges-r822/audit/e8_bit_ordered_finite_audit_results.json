@@ -1,0 +1,69 @@
+{
+  "status": "PASS_CHANGED_FINITE_COUNTS_BRIDGE_AND_MOMENT_UNDER_IDENTIFIED_GENERIC_CONTRACT",
+  "candidate_sha256": "1ce72e817758a3a72536f16829fc0544d99640b4a6f52e7649b4ada318d016e8",
+  "Kpairs": 4,
+  "replicas": 8,
+  "local_scalar_additions": 14976,
+  "prefix_entry_xors": 408,
+  "prefix_inverse_xors": 408,
+  "forward_inverse_row_l1": [
+    783,
+    9654
+  ],
+  "payload_prefix_upper": "2863385682852665088",
+  "payload_prefix_bits": 62,
+  "global_abstract_role_columns": 1782,
+  "all_nine_stage_columns_restored": true,
+  "omitted_bridge_controls": 18,
+  "coordinate_entrance_windows": 9,
+  "entrance_completion_checks": 175,
+  "unit_expanded_global_additions": 1095552,
+  "route_families": 160608,
+  "copy_erase_episodes": 648,
+  "private_centres_bound": 9,
+  "live": 13953,
+  "live_plus_centres": 13962,
+  "owner_adapter_calls": 118368,
+  "owner_address_transpositions_total": 7511616,
+  "max_owner_chart_elementary_factors": 128,
+  "selector_overcharge": 2311605504,
+  "finite_coefficient": "194308232162674",
+  "finite_coefficient_bits": 48,
+  "coefficient_ceiling": "2^80",
+  "q_power_upper": "q^5185",
+  "fallback_actual": 124842,
+  "fallback_ceiling": 165888,
+  "halving_degree": 2,
+  "row_reserve": 10370,
+  "external_row_coefficient": 20161,
+  "row_slack": 9791,
+  "coarse_certified_grid": "1036212382904051/1000000000000000000",
+  "delta_tau_lower_decimal": "7.521881235706341e-19",
+  "delta_linear": "812499998231041/327023437500000000",
+  "bootstrap_chain": [
+    "384599/10000000000",
+    "1035178499426192559905918627789399/1000000000000000000000000000000000000",
+    "1036211311581188763178139266236574330173510051955349/1000000000000000000000000000000000000000000000000000000",
+    "1036212381793932984061994466651333692843969588584005287880911603218799/1000000000000000000000000000000000000000000000000000000000000000000000000"
+  ],
+  "bootstrap_cutoffs": [
+    {
+      "minimum_gap": "1033883477858440094081372210601/1000000000000000000000000000000000000",
+      "cutoff_log2": "33679009517018"
+    },
+    {
+      "minimum_gap": "1071322862236821860733763425669826489948044651/1000000000000000000000000000000000000000000000000000000",
+      "cutoff_log2": "31366188991050907213"
+    },
+    {
+      "minimum_gap": "1110118015938005533348666307156030411415994712119088396781201/1000000000000000000000000000000000000000000000000000000000000000000000000",
+      "cutoff_log2": "29212195546463253276588965"
+    }
+  ],
+  "remaining_standing_assumptions": [
+    "Generic scalar-payload/address-window lifting theorem and correlated bank semantics",
+    "Generic ADD/MOVE/COPY/ERASE recursive compiler and unit-cost row interfaces used by finite_k",
+    "Existing good/bad-prime engines, common-grid precision and all-size analytic bootstrap"
+  ],
+  "finite_caveat": "Full physical source-emitter machinecode and exhaustive globaladdresspayloadcombined replay are not supplied; this is independent symbolic finitecontract closure, not unconditionalmultiplicationtheorem."
+}

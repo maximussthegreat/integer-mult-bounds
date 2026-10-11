@@ -1,0 +1,7 @@
+[
+  "e8_bit_ordered_independent_audit.py",
+  "e8_bit_ordered_packing_audit.py",
+  "e8_bit_ordered_finite_audit.py",
+  "e8_bit_ordered_route_audit.py",
+  "e8_bit_ordered_records_audit.py"
+]

@@ -1,0 +1,797 @@
+{
+  "status": "PASS_ORDERED_LOCAL_REPLAY_AND_FRAMES",
+  "sha256": "1ce72e817758a3a72536f16829fc0544d99640b4a6f52e7649b4ada318d016e8",
+  "layers": [
+    {
+      "iteration": 0,
+      "frame": 464,
+      "dimension": 4,
+      "predicted_entropy_gain": 37.79133821639578,
+      "relations": [
+        {
+          "pivot": 967,
+          "donors": [
+            948,
+            950,
+            965
+          ]
+        },
+        {
+          "pivot": 979,
+          "donors": [
+            948,
+            950,
+            965
+          ]
+        },
+        {
+          "pivot": 981,
+          "donors": [
+            965
+          ]
+        },
+        {
+          "pivot": 992,
+          "donors": [
+            950
+          ]
+        },
+        {
+          "pivot": 994,
+          "donors": [
+            948
+          ]
+        }
+      ],
+      "donors": [
+        948,
+        950,
+        965
+      ],
+      "prefix_gates": 9,
+      "local_histogram": {
+        "4": 366,
+        "1": 2245,
+        "2": 1031,
+        "3": 376,
+        "5": 220,
+        "6": 1,
+        "8": 18
+      },
+      "residual_inventory": {
+        "8": 706,
+        "7": 95,
+        "4": 21
+      }
+    },
+    {
+      "iteration": 1,
+      "frame": 462,
+      "dimension": 4,
+      "predicted_entropy_gain": 31.233875420192998,
+      "relations": [
+        {
+          "pivot": 972,
+          "donors": [
+            949,
+            951,
+            970
+          ]
+        },
+        {
+          "pivot": 1006,
+          "donors": [
+            949,
+            951,
+            970
+          ]
+        },
+        {
+          "pivot": 1008,
+          "donors": [
+            970
+          ]
+        },
+        {
+          "pivot": 1016,
+          "donors": [
+            951
+          ]
+        }
+      ],
+      "donors": [
+        949,
+        951,
+        970
+      ],
+      "prefix_gates": 8,
+      "local_histogram": {
+        "4": 368,
+        "1": 2251,
+        "2": 1031,
+        "3": 376,
+        "5": 214,
+        "6": 1,
+        "8": 18
+      },
+      "residual_inventory": {
+        "8": 702,
+        "7": 95,
+        "4": 25
+      }
+    },
+    {
+      "iteration": 2,
+      "frame": 8,
+      "dimension": 1,
+      "predicted_entropy_gain": 31.115380294929032,
+      "relations": [
+        {
+          "pivot": 864,
+          "donors": [
+            772,
+            773,
+            862
+          ]
+        },
+        {
+          "pivot": 943,
+          "donors": [
+            941,
+            770,
+            872
+          ]
+        },
+        {
+          "pivot": 946,
+          "donors": [
+            944,
+            778,
+            858,
+            912
+          ]
+        },
+        {
+          "pivot": 961,
+          "donors": [
+            944,
+            935
+          ]
+        },
+        {
+          "pivot": 962,
+          "donors": [
+            941,
+            936
+          ]
+        },
+        {
+          "pivot": 963,
+          "donors": [
+            944,
+            778,
+            858,
+            912,
+            935
+          ]
+        },
+        {
+          "pivot": 964,
+          "donors": [
+            941,
+            770,
+            872,
+            936
+          ]
+        },
+        {
+          "pivot": 966,
+          "donors": [
+            939,
+            953
+          ]
+        },
+        {
+          "pivot": 968,
+          "donors": [
+            939,
+            955
+          ]
+        },
+        {
+          "pivot": 974,
+          "donors": [
+            973,
+            765,
+            779,
+            821
+          ]
+        },
+        {
+          "pivot": 976,
+          "donors": [
+            975,
+            764,
+            782,
+            824
+          ]
+        },
+        {
+          "pivot": 982,
+          "donors": [
+            980,
+            786,
+            832
+          ]
+        },
+        {
+          "pivot": 988,
+          "donors": [
+            975,
+            932
+          ]
+        },
+        {
+          "pivot": 989,
+          "donors": [
+            975,
+            764,
+            782,
+            824,
+            932
+          ]
+        },
+        {
+          "pivot": 999,
+          "donors": [
+            786,
+            832,
+            997
+          ]
+        },
+        {
+          "pivot": 1003,
+          "donors": [
+            765,
+            779,
+            821,
+            1002
+          ]
+        },
+        {
+          "pivot": 1007,
+          "donors": [
+            786,
+            832,
+            997
+          ]
+        },
+        {
+          "pivot": 1009,
+          "donors": [
+            997
+          ]
+        },
+        {
+          "pivot": 1010,
+          "donors": [
+            955
+          ]
+        },
+        {
+          "pivot": 1020,
+          "donors": [
+            939,
+            955
+          ]
+        },
+        {
+          "pivot": 1024,
+          "donors": [
+            765,
+            779,
+            821,
+            1002
+          ]
+        },
+        {
+          "pivot": 1025,
+          "donors": [
+            1002
+          ]
+        },
+        {
+          "pivot": 1026,
+          "donors": [
+            975,
+            764,
+            782,
+            824,
+            932
+          ]
+        },
+        {
+          "pivot": 1027,
+          "donors": [
+            975,
+            932
+          ]
+        },
+        {
+          "pivot": 1040,
+          "donors": [
+            944,
+            778,
+            858,
+            912,
+            935
+          ]
+        },
+        {
+          "pivot": 1041,
+          "donors": [
+            944,
+            935
+          ]
+        },
+        {
+          "pivot": 1044,
+          "donors": [
+            941,
+            770,
+            872,
+            936
+          ]
+        },
+        {
+          "pivot": 1045,
+          "donors": [
+            941,
+            936
+          ]
+        },
+        {
+          "pivot": 1052,
+          "donors": [
+            764,
+            766,
+            280
+          ]
+        }
+      ],
+      "donors": [
+        280,
+        764,
+        765,
+        766,
+        770,
+        772,
+        773,
+        778,
+        779,
+        782,
+        786,
+        821,
+        824,
+        832,
+        858,
+        862,
+        872,
+        912,
+        932,
+        935,
+        936,
+        939,
+        941,
+        944,
+        953,
+        955,
+        973,
+        975,
+        980,
+        997,
+        1002
+      ],
+      "prefix_gates": 87,
+      "local_histogram": {
+        "1": 2260,
+        "4": 401,
+        "2": 1035,
+        "3": 372,
+        "5": 182,
+        "8": 18
+      },
+      "residual_inventory": {
+        "8": 673,
+        "7": 124,
+        "4": 25
+      }
+    },
+    {
+      "iteration": 3,
+      "frame": 459,
+      "dimension": 4,
+      "predicted_entropy_gain": 28.731863302502056,
+      "relations": [
+        {
+          "pivot": 1011,
+          "donors": [
+            985
+          ]
+        },
+        {
+          "pivot": 1013,
+          "donors": [
+            985,
+            993,
+            995
+          ]
+        },
+        {
+          "pivot": 1017,
+          "donors": [
+            995
+          ]
+        },
+        {
+          "pivot": 1019,
+          "donors": [
+            993
+          ]
+        }
+      ],
+      "donors": [
+        985,
+        993,
+        995
+      ],
+      "prefix_gates": 6,
+      "local_histogram": {
+        "4": 404,
+        "1": 2267,
+        "2": 1035,
+        "3": 372,
+        "5": 175,
+        "8": 18
+      },
+      "residual_inventory": {
+        "8": 669,
+        "7": 124,
+        "4": 29
+      }
+    },
+    {
+      "iteration": 4,
+      "frame": 458,
+      "dimension": 4,
+      "predicted_entropy_gain": 24.676412623990217,
+      "relations": [
+        {
+          "pivot": 1000,
+          "donors": [
+            987
+          ]
+        },
+        {
+          "pivot": 1005,
+          "donors": [
+            956,
+            987
+          ]
+        },
+        {
+          "pivot": 1014,
+          "donors": [
+            956,
+            987
+          ]
+        }
+      ],
+      "donors": [
+        956,
+        987
+      ],
+      "prefix_gates": 5,
+      "local_histogram": {
+        "4": 405,
+        "1": 2271,
+        "2": 1035,
+        "3": 372,
+        "5": 171,
+        "8": 18
+      },
+      "residual_inventory": {
+        "8": 666,
+        "7": 124,
+        "4": 32
+      }
+    },
+    {
+      "iteration": 5,
+      "frame": 463,
+      "dimension": 4,
+      "predicted_entropy_gain": 24.676412623990217,
+      "relations": [
+        {
+          "pivot": 971,
+          "donors": [
+            938,
+            954
+          ]
+        },
+        {
+          "pivot": 983,
+          "donors": [
+            954
+          ]
+        },
+        {
+          "pivot": 996,
+          "donors": [
+            938,
+            954
+          ]
+        }
+      ],
+      "donors": [
+        938,
+        954
+      ],
+      "prefix_gates": 5,
+      "local_histogram": {
+        "4": 406,
+        "1": 2275,
+        "2": 1035,
+        "3": 372,
+        "5": 167,
+        "8": 18
+      },
+      "residual_inventory": {
+        "8": 663,
+        "7": 124,
+        "4": 35
+      }
+    },
+    {
+      "iteration": 6,
+      "frame": 465,
+      "dimension": 4,
+      "predicted_entropy_gain": 24.676412623990217,
+      "relations": [
+        {
+          "pivot": 960,
+          "donors": [
+            937,
+            947
+          ]
+        },
+        {
+          "pivot": 1046,
+          "donors": [
+            947
+          ]
+        },
+        {
+          "pivot": 1050,
+          "donors": [
+            937,
+            947
+          ]
+        }
+      ],
+      "donors": [
+        937,
+        947
+      ],
+      "prefix_gates": 5,
+      "local_histogram": {
+        "4": 407,
+        "1": 2279,
+        "2": 1035,
+        "3": 372,
+        "5": 163,
+        "8": 18
+      },
+      "residual_inventory": {
+        "8": 660,
+        "7": 124,
+        "4": 38
+      }
+    },
+    {
+      "iteration": 7,
+      "frame": 468,
+      "dimension": 4,
+      "predicted_entropy_gain": 24.676412623990217,
+      "relations": [
+        {
+          "pivot": 959,
+          "donors": [
+            934,
+            942
+          ]
+        },
+        {
+          "pivot": 1030,
+          "donors": [
+            934,
+            942
+          ]
+        },
+        {
+          "pivot": 1038,
+          "donors": [
+            942
+          ]
+        }
+      ],
+      "donors": [
+        934,
+        942
+      ],
+      "prefix_gates": 5,
+      "local_histogram": {
+        "4": 408,
+        "1": 2283,
+        "2": 1035,
+        "3": 372,
+        "5": 159,
+        "8": 18
+      },
+      "residual_inventory": {
+        "8": 657,
+        "7": 124,
+        "4": 41
+      }
+    },
+    {
+      "iteration": 8,
+      "frame": 469,
+      "dimension": 4,
+      "predicted_entropy_gain": 24.676412623990217,
+      "relations": [
+        {
+          "pivot": 991,
+          "donors": [
+            933,
+            978
+          ]
+        },
+        {
+          "pivot": 1028,
+          "donors": [
+            978
+          ]
+        },
+        {
+          "pivot": 1036,
+          "donors": [
+            933,
+            978
+          ]
+        }
+      ],
+      "donors": [
+        933,
+        978
+      ],
+      "prefix_gates": 5,
+      "local_histogram": {
+        "4": 409,
+        "1": 2287,
+        "2": 1035,
+        "3": 372,
+        "5": 155,
+        "8": 18
+      },
+      "residual_inventory": {
+        "8": 654,
+        "7": 124,
+        "4": 44
+      }
+    },
+    {
+      "iteration": 9,
+      "frame": 3,
+      "dimension": 1,
+      "predicted_entropy_gain": 2.523471617548676,
+      "relations": [
+        {
+          "pivot": 741,
+          "donors": [
+            250,
+            740
+          ]
+        },
+        {
+          "pivot": 755,
+          "donors": [
+            249,
+            754
+          ]
+        },
+        {
+          "pivot": 845,
+          "donors": [
+            250,
+            844
+          ]
+        },
+        {
+          "pivot": 847,
+          "donors": [
+            249,
+            846
+          ]
+        },
+        {
+          "pivot": 885,
+          "donors": [
+            250,
+            884
+          ]
+        },
+        {
+          "pivot": 887,
+          "donors": [
+            249,
+            886
+          ]
+        },
+        {
+          "pivot": 947,
+          "donors": [
+            742,
+            756,
+            768,
+            945
+          ]
+        }
+      ],
+      "donors": [
+        249,
+        250,
+        740,
+        742,
+        754,
+        756,
+        768,
+        844,
+        846,
+        884,
+        886,
+        945
+      ],
+      "prefix_gates": 16,
+      "local_histogram": {
+        "1": 2294,
+        "4": 407,
+        "3": 362,
+        "2": 1047,
+        "5": 155,
+        "8": 18
+      },
+      "residual_inventory": {
+        "8": 647,
+        "7": 131,
+        "4": 44
+      }
+    }
+  ],
+  "gauges": 175,
+  "entrance_mass": 307,
+  "local_histogram": {
+    "1": 2294,
+    "4": 407,
+    "3": 362,
+    "2": 1047,
+    "5": 155,
+    "8": 18
+  },
+  "residual_inventory": {
+    "8": 647,
+    "7": 131,
+    "4": 44
+  },
+  "scope": "Exact1062dirtycolumns,nestingperlayer; discoveryentropyselection; simultaneouspacking/rationalchart/invoiceadmissionrequired."
+}

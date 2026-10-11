@@ -1,0 +1,152 @@
+[
+  {
+    "file": "sources/PR382_e8core.py.txt",
+    "sha256": "1cb286196c1530d06f50f0997febc5993b388f33464e295611b920ba30a24eeb",
+    "commit": "536329e6cddd37d70a6b52cbe2c2604ea18c5e83",
+    "repository": "CrocSwap/integer-mult-bounds",
+    "path": "research/e8-kernel-bit-b3/code/e8core.py",
+    "transformation": "unmodified UTF-8 content",
+    "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/536329e6cddd37d70a6b52cbe2c2604ea18c5e83/research/e8-kernel-bit-b3/code/e8core.py",
+    "git_blob_sha1": "78983b368715e89fe8524a6dd2c13585d2b5394e"
+  },
+  {
+    "file": "sources/UPSTREAM_LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "commit": "12f488264cdd74a3b60d0fb534f4955792384f5c",
+    "repository": "CrocSwap/integer-mult-bounds",
+    "path": "LICENSE",
+    "transformation": "unmodified UTF-8 content",
+    "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/12f488264cdd74a3b60d0fb534f4955792384f5c/LICENSE",
+    "git_blob_sha1": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+  },
+  {
+    "file": "sources/PR382_kernel-selection.json.txt",
+    "sha256": "9a05666d6a0607a599c683fc3d51d6fa1fc9eb8ea2c040d160cca565212e58a7",
+    "commit": "536329e6cddd37d70a6b52cbe2c2604ea18c5e83",
+    "repository": "CrocSwap/integer-mult-bounds",
+    "path": "research/e8-kernel-bit-b3/stages/kernel-selection.json",
+    "transformation": "unmodified UTF-8 content",
+    "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/536329e6cddd37d70a6b52cbe2c2604ea18c5e83/research/e8-kernel-bit-b3/stages/kernel-selection.json",
+    "git_blob_sha1": "61faf01cfaa030d7a6fefc3df591b4b60ca7d711"
+  },
+  {
+    "file": "sources/PR404_certify_bit_k.py.txt",
+    "sha256": "e68a81ef7981a90d613752003cd5cab5351e260f909b094f1668d8a4dfe480df",
+    "commit": "12f488264cdd74a3b60d0fb534f4955792384f5c",
+    "repository": "CrocSwap/integer-mult-bounds",
+    "path": "research/e8-shared-donor-chains/vendor/bit/code/bit/checkers/certify_bit_k.py",
+    "transformation": "unmodified UTF-8 content",
+    "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/12f488264cdd74a3b60d0fb534f4955792384f5c/research/e8-shared-donor-chains/vendor/bit/code/bit/checkers/certify_bit_k.py",
+    "git_blob_sha1": "37ce2ee2b412b3b97a397159f48b912ef893b014"
+  },
+  {
+    "file": "sources/UPSTREAM_CITATION.cff",
+    "sha256": "551e27b08d995d60e39575cd17566bcd8db1e07a67be8685d473b4019224dac5",
+    "commit": "12f488264cdd74a3b60d0fb534f4955792384f5c",
+    "repository": "CrocSwap/integer-mult-bounds",
+    "path": "CITATION.cff",
+    "transformation": "unmodified UTF-8 content",
+    "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/12f488264cdd74a3b60d0fb534f4955792384f5c/CITATION.cff",
+    "git_blob_sha1": "ed9c685d7d0bb960e12487271e869aaf93695c17"
+  },
+  {
+    "file": "sources/reuse-selection.json.txt",
+    "sha256": "0b300bab47cf0d69cbc7965bf01c2a27c96b97677ee651334470d8c968b603f1",
+    "commit": "12f488264cdd74a3b60d0fb534f4955792384f5c",
+    "repository": "CrocSwap/integer-mult-bounds",
+    "path": "research/e8-shared-donor-chains/vendor/reuse/reuse-selection.json",
+    "transformation": "unmodified UTF-8 content",
+    "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/12f488264cdd74a3b60d0fb534f4955792384f5c/research/e8-shared-donor-chains/vendor/reuse/reuse-selection.json",
+    "git_blob_sha1": "a6954dc65f28137ad16d015b42c40dbbde0bd66f"
+  },
+  {
+    "file": "sources/frame_replay.py.txt",
+    "sha256": "6dc74f24323c717d9eff7c12f27c67a0531899e61a8ee340c98162b1e34f9531",
+    "commit": "12f488264cdd74a3b60d0fb534f4955792384f5c",
+    "repository": "CrocSwap/integer-mult-bounds",
+    "path": "research/e8-shared-donor-chains/vendor/reuse/frame_replay.py",
+    "transformation": "unmodified UTF-8 content",
+    "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/12f488264cdd74a3b60d0fb534f4955792384f5c/research/e8-shared-donor-chains/vendor/reuse/frame_replay.py",
+    "git_blob_sha1": "b0b6c1d5bc0a797a2230870731248ea439ee21bc"
+  },
+  {
+    "file": "sources/PR382_stages.py.txt",
+    "sha256": "e37ccfdd0bf60a93fb0150d9810674b37409b161046fea268df87d6372e15f8a",
+    "commit": "536329e6cddd37d70a6b52cbe2c2604ea18c5e83",
+    "repository": "CrocSwap/integer-mult-bounds",
+    "path": "research/e8-kernel-bit-b3/code/stages.py",
+    "transformation": "unmodified UTF-8 content",
+    "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/536329e6cddd37d70a6b52cbe2c2604ea18c5e83/research/e8-kernel-bit-b3/code/stages.py",
+    "git_blob_sha1": "4725355546e16df5ca4a3167fcea22081229db67"
+  },
+  {
+    "file": "sources/bitE8-r865.json",
+    "sha256": "fbc56ed40d857b6ed74cbab1badd144fc276f08f76326dcb21a3ab2178a40c13",
+    "commit": "12f488264cdd74a3b60d0fb534f4955792384f5c",
+    "repository": "CrocSwap/integer-mult-bounds",
+    "path": "research/e8-shared-donor-chains/vendor/bit/data/bit/bitE8-r865.json.gz",
+    "transformation": "gzip decompressed only",
+    "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/12f488264cdd74a3b60d0fb534f4955792384f5c/research/e8-shared-donor-chains/vendor/bit/data/bit/bitE8-r865.json.gz",
+    "compressed_source_git_blob_sha1": "8bec1751f7e33c3a1e4673ef5dbc34d6f205321e"
+  },
+  {
+    "file": "sources/PR382_tile_m.py.txt",
+    "sha256": "d6ae4a556472d403773cd2117c992bfc10e1187112da1b3893f3fae628a131dd",
+    "commit": "536329e6cddd37d70a6b52cbe2c2604ea18c5e83",
+    "repository": "CrocSwap/integer-mult-bounds",
+    "path": "research/e8-kernel-bit-b3/code/tile_m.py",
+    "transformation": "unmodified UTF-8 content",
+    "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/536329e6cddd37d70a6b52cbe2c2604ea18c5e83/research/e8-kernel-bit-b3/code/tile_m.py",
+    "git_blob_sha1": "cd5fd9b5399f5e7afe5d2a95bd3504bd543c0d60"
+  },
+  {
+    "file": "sources/UPSTREAM_NOTICE",
+    "sha256": "b49022cb4104d90b182e4c335f670faf45529025b15db77bf0291835083c28bd",
+    "commit": "12f488264cdd74a3b60d0fb534f4955792384f5c",
+    "repository": "CrocSwap/integer-mult-bounds",
+    "path": "NOTICE",
+    "transformation": "unmodified UTF-8 content",
+    "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/12f488264cdd74a3b60d0fb534f4955792384f5c/NOTICE",
+    "git_blob_sha1": "59d8e0cf3102e15bd11db430838365531e2d7f18"
+  },
+  {
+    "file": "sources/PR404_finite_k.py.txt",
+    "sha256": "7e67dc75e63a11e38ac6d6615656c7cf6982e5a33dd404d04b967bf474cad02e",
+    "commit": "12f488264cdd74a3b60d0fb534f4955792384f5c",
+    "repository": "CrocSwap/integer-mult-bounds",
+    "path": "research/e8-shared-donor-chains/vendor/bit/code/bit/checkers/finite_k.py",
+    "transformation": "unmodified UTF-8 content",
+    "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/12f488264cdd74a3b60d0fb534f4955792384f5c/research/e8-shared-donor-chains/vendor/bit/code/bit/checkers/finite_k.py",
+    "git_blob_sha1": "8781815ee6ee663edc0e0afdf1380186594ec913"
+  },
+  {
+    "file": "sources/frame-selection.json.txt",
+    "sha256": "a83d4880579fb1f8cffb701d1d685c157b7fa14ef9d6642e42ff1e4f5a1b8c5c",
+    "commit": "12f488264cdd74a3b60d0fb534f4955792384f5c",
+    "repository": "CrocSwap/integer-mult-bounds",
+    "path": "research/e8-shared-donor-chains/vendor/reuse/frame-selection.json",
+    "transformation": "unmodified UTF-8 content",
+    "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/12f488264cdd74a3b60d0fb534f4955792384f5c/research/e8-shared-donor-chains/vendor/reuse/frame-selection.json",
+    "git_blob_sha1": "647b34368f3f0c7d228c70fa335af872e7946beb"
+  },
+  {
+    "file": "sources/PR404_receipts_k.py.txt",
+    "sha256": "67f714e10a846e9cc62996342f825cd715055031e0b12591abdafd225717e195",
+    "commit": "12f488264cdd74a3b60d0fb534f4955792384f5c",
+    "repository": "CrocSwap/integer-mult-bounds",
+    "path": "research/e8-shared-donor-chains/vendor/bit/code/bit/receipts_k.py",
+    "transformation": "unmodified UTF-8 content",
+    "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/12f488264cdd74a3b60d0fb534f4955792384f5c/research/e8-shared-donor-chains/vendor/bit/code/bit/receipts_k.py",
+    "git_blob_sha1": "428261488b4af028fd04df4f84eead1dad79a389"
+  },
+  {
+    "file": "sources/reuse_replay.py.txt",
+    "sha256": "e83251e3d49267fb5b53eda53c1be80118b7df0cc671c38cad1f300883cd1316",
+    "commit": "12f488264cdd74a3b60d0fb534f4955792384f5c",
+    "repository": "CrocSwap/integer-mult-bounds",
+    "path": "research/e8-shared-donor-chains/vendor/reuse/reuse_replay.py",
+    "transformation": "unmodified UTF-8 content",
+    "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/12f488264cdd74a3b60d0fb534f4955792384f5c/research/e8-shared-donor-chains/vendor/reuse/reuse_replay.py",
+    "git_blob_sha1": "95cf56839eb0c0c4bce7a7e10cdafba4d73e45e9"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "status": "PASS_ORDERED175_EXACT_LITERAL_SEQUENCE_AND_DIRTY_FRAMES",
+  "sha256": "1ce72e817758a3a72536f16829fc0544d99640b4a6f52e7649b4ada318d016e8",
+  "layers": 10,
+  "gauges": 175,
+  "entrance_mass": 307,
+  "prefix_gates": 408,
+  "N_nonzero_rows": 103,
+  "N_entries": 408,
+  "N2_nonzero_rows": 4,
+  "N2_entries": 12,
+  "N3_zero": true,
+  "head_read_before_write": true,
+  "prefix_is_involutive": false,
+  "double_prefix_failure_registers": [
+    742,
+    756,
+    768,
+    945
+  ],
+  "forward_inverse_adjoint_and_literal_inverse_all_columns": true,
+  "formal_columns": 1062,
+  "local_histogram": {
+    "1": 2294,
+    "2": 1047,
+    "3": 362,
+    "4": 407,
+    "5": 155,
+    "8": 18
+  },
+  "rank_mass": 8021,
+  "coordinate_entrance_dimensions": {
+    "1": 131,
+    "4": 44
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "status": "PASS_ZERO_PADDING_INTEGER_PACKING_AND_DISCOVERY_PRICE",
+  "candidate_sha256": "2a93052897bd66dc10f60fffe58584724ea3fd4c8de101d189fc5d28c8d9263a",
+  "replicas": 8,
+  "banks_per_stage": 713,
+  "patterns": [
+    {
+      "count": 95,
+      "ranks": {
+        "7": 8,
+        "8": 2
+      }
+    },
+    {
+      "count": 64,
+      "ranks": {
+        "4": 2,
+        "8": 8
+      }
+    },
+    {
+      "count": 554,
+      "ranks": {
+        "8": 9
+      }
+    }
+  ],
+  "live": 14097,
+  "m": 72,
+  "profile": {
+    "1": 161064,
+    "2": 74232,
+    "3": 27072,
+    "4": 26136,
+    "5": 16416,
+    "6": 72,
+    "7": 5760,
+    "8": 3216,
+    "14": 1920,
+    "22": 1920,
+    "28": 1920,
+    "36": 1920,
+    "42": 1920,
+    "50": 1920
+  },
+  "rank_mass": 1012488,
+  "deficit": 2496,
+  "child_count": 325488,
+  "fallback_rank1": 53994553344,
+  "coarse_discovery": "0.001028490312861249899907505360198631020414738463774566436082786067239644",
+  "old_bit_coarse": "0.001021539410806988",
+  "relative_bit_coarse_gain": "0.006804340567507697741796822320710941894833584733396111664406766137204",
+  "scope": "Exact integerpacking/mass, discoveryDecimalprice; nofullphysicalbankownerorfiniteinvoiceadmission and noassembledkappaclaim."
+}

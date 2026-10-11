@@ -1,0 +1,28 @@
+{
+  "status": "PASS_ALL944_GRAMS_AND120_LITERAL_DYADIC_ROUTES",
+  "frame_count": 944,
+  "Gram_prime_set": [
+    2
+  ],
+  "Gram_determinants": [
+    "1",
+    "128",
+    "16",
+    "2",
+    "256",
+    "32",
+    "4",
+    "64",
+    "8"
+  ],
+  "port_routes": 120,
+  "max_elementary_factors": 77,
+  "factor_denominators": [
+    1,
+    2,
+    4
+  ],
+  "inverse_reconstruction_checks": 120,
+  "omitted_factor_controls": 120,
+  "scope": "Exact rationaladdressgeometry and explicitrouteprograms, unchangedfromcurrentR822roots/frames. No upstreamprogramsexecuted."
+}

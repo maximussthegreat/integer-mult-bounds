@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "negative_controls": [
+    "omit first entrance XOR",
+    "omit final inverse entrance XOR",
+    "use forward order instead of chronological inverse",
+    "omit one dirty compensation source",
+    "omit compulsory rank32 padding calls",
+    "force missing coordinate axis into entrance frame"
+  ],
+  "columns": 1062
+}

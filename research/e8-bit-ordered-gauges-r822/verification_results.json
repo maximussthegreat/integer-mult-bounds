@@ -1,0 +1,272 @@
+{
+  "status": "PASS_SYMBOLIC_FINITE_CONTRACT_CHECKS",
+  "candidate_sha256": "1ce72e817758a3a72536f16829fc0544d99640b4a6f52e7649b4ada318d016e8",
+  "audit_results": {
+    "e8_bit_gauge_independent_audit_results.json": {
+      "status": "PASS_F2_DIRTY_SCALAR_AND_RATIONAL_FRAME_MODEL",
+      "base_sha256": "9974db5500941456e49030a5e5f374f34c707f76a40904fe1833df4f893a1c69",
+      "gauges": 111,
+      "entrance_mass": 159,
+      "prefix_xor_count": 257,
+      "all_live_columns": 1062,
+      "local_histogram": {
+        "1": 2237,
+        "2": 1031,
+        "3": 376,
+        "4": 363,
+        "5": 228,
+        "6": 1,
+        "8": 18
+      },
+      "rank_mass": 8169,
+      "residual_inventory": {
+        "4": 16,
+        "7": 95
+      },
+      "ungauged_full_residuals": 711,
+      "scope": "No literal endpoint Fourier/address adapters, bank packing, recursive compiler or analytic admission. Gauge method inheritedfromPR382; this audits transferredrelations onR822.",
+      "exact_candidate_sha256": "2a93052897bd66dc10f60fffe58584724ea3fd4c8de101d189fc5d28c8d9263a",
+      "exact_candidate_both_orientations": true,
+      "exact_candidate_rational_frame_walk": true,
+      "exact_integer_support_containment": true,
+      "exact_rational_target_caps": true
+    },
+    "e8_bit_gauge_packing_price_audit_results.json": {
+      "status": "PASS_COORDINATE_ENTRANCES_CONCRETE_OWNER_ROUTES_EXACT_CONDITIONAL_MOMENT",
+      "gauges": 111,
+      "entrance_dimensions": {
+        "1": 95,
+        "4": 16
+      },
+      "replicas": 8,
+      "banks_per_stage": 713,
+      "residual_roles": 6576,
+      "padding": 0,
+      "live": 14097,
+      "profile": {
+        "1": 161064,
+        "2": 74232,
+        "3": 27072,
+        "4": 26136,
+        "5": 16416,
+        "6": 72,
+        "7": 5760,
+        "8": 3216,
+        "14": 1920,
+        "22": 1920,
+        "28": 1920,
+        "36": 1920,
+        "42": 1920,
+        "50": 1920
+      },
+      "rank_mass": 1012488,
+      "deficit": 2496,
+      "child_count": 325488,
+      "coarse_lower": "1028490312861249899907/1000000000000000000000000",
+      "coarse_upper": "257122578215312474977/250000000000000000000000",
+      "moment_lower_endpoint_upper_minus_one": "-1.2103144480578067e-24",
+      "moment_upper_endpoint_lower_minus_one": "1.1846395893524402e-24",
+      "scope": "Exact formalcoordinate residual packing and inversepermutations. Residualphysicalmeaning and fallbackengine portability remain assumptions; no literal phase/compiler/invoice admission, no assembledkappa claim.",
+      "explicit_coordinate_partial_swap_charts": 111,
+      "partial_swap_both_orientations": true,
+      "coordinate_chart_scope": "Exact16-coordinate addresspermutation matrices D_full D_E=D_complement, including signs(+1). Applies when supplierendpoint normalization is the specifiedpartialswapmodel; fullglobalwrapper/compiler stillunverified."
+    },
+    "e8_bit_ordered_finite_audit_results.json": {
+      "status": "PASS_CHANGED_FINITE_COUNTS_BRIDGE_AND_MOMENT_UNDER_IDENTIFIED_GENERIC_CONTRACT",
+      "candidate_sha256": "1ce72e817758a3a72536f16829fc0544d99640b4a6f52e7649b4ada318d016e8",
+      "Kpairs": 4,
+      "replicas": 8,
+      "local_scalar_additions": 14976,
+      "prefix_entry_xors": 408,
+      "prefix_inverse_xors": 408,
+      "forward_inverse_row_l1": [
+        783,
+        9654
+      ],
+      "payload_prefix_upper": "2863385682852665088",
+      "payload_prefix_bits": 62,
+      "global_abstract_role_columns": 1782,
+      "all_nine_stage_columns_restored": true,
+      "omitted_bridge_controls": 18,
+      "coordinate_entrance_windows": 9,
+      "entrance_completion_checks": 175,
+      "unit_expanded_global_additions": 1095552,
+      "route_families": 160608,
+      "copy_erase_episodes": 648,
+      "private_centres_bound": 9,
+      "live": 13953,
+      "live_plus_centres": 13962,
+      "owner_adapter_calls": 118368,
+      "owner_address_transpositions_total": 7511616,
+      "max_owner_chart_elementary_factors": 128,
+      "selector_overcharge": 2311605504,
+      "finite_coefficient": "194308232162674",
+      "finite_coefficient_bits": 48,
+      "coefficient_ceiling": "2^80",
+      "q_power_upper": "q^5185",
+      "fallback_actual": 124842,
+      "fallback_ceiling": 165888,
+      "halving_degree": 2,
+      "row_reserve": 10370,
+      "external_row_coefficient": 20161,
+      "row_slack": 9791,
+      "coarse_certified_grid": "1036212382904051/1000000000000000000",
+      "delta_tau_lower_decimal": "7.521881235706341e-19",
+      "delta_linear": "812499998231041/327023437500000000",
+      "bootstrap_chain": [
+        "384599/10000000000",
+        "1035178499426192559905918627789399/1000000000000000000000000000000000000",
+        "1036211311581188763178139266236574330173510051955349/1000000000000000000000000000000000000000000000000000000",
+        "1036212381793932984061994466651333692843969588584005287880911603218799/1000000000000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "bootstrap_cutoffs": [
+        {
+          "minimum_gap": "1033883477858440094081372210601/1000000000000000000000000000000000000",
+          "cutoff_log2": "33679009517018"
+        },
+        {
+          "minimum_gap": "1071322862236821860733763425669826489948044651/1000000000000000000000000000000000000000000000000000000",
+          "cutoff_log2": "31366188991050907213"
+        },
+        {
+          "minimum_gap": "1110118015938005533348666307156030411415994712119088396781201/1000000000000000000000000000000000000000000000000000000000000000000000000",
+          "cutoff_log2": "29212195546463253276588965"
+        }
+      ],
+      "remaining_standing_assumptions": [
+        "Generic scalar-payload/address-window lifting theorem and correlated bank semantics",
+        "Generic ADD/MOVE/COPY/ERASE recursive compiler and unit-cost row interfaces used by finite_k",
+        "Existing good/bad-prime engines, common-grid precision and all-size analytic bootstrap"
+      ],
+      "finite_caveat": "Full physical source-emitter machinecode and exhaustive globaladdresspayloadcombined replay are not supplied; this is independent symbolic finitecontract closure, not unconditionalmultiplicationtheorem."
+    },
+    "e8_bit_ordered_independent_audit_results.json": {
+      "status": "PASS_ORDERED175_EXACT_LITERAL_SEQUENCE_AND_DIRTY_FRAMES",
+      "sha256": "1ce72e817758a3a72536f16829fc0544d99640b4a6f52e7649b4ada318d016e8",
+      "layers": 10,
+      "gauges": 175,
+      "entrance_mass": 307,
+      "prefix_gates": 408,
+      "N_nonzero_rows": 103,
+      "N_entries": 408,
+      "N2_nonzero_rows": 4,
+      "N2_entries": 12,
+      "N3_zero": true,
+      "head_read_before_write": true,
+      "prefix_is_involutive": false,
+      "double_prefix_failure_registers": [
+        742,
+        756,
+        768,
+        945
+      ],
+      "forward_inverse_adjoint_and_literal_inverse_all_columns": true,
+      "formal_columns": 1062,
+      "local_histogram": {
+        "1": 2294,
+        "2": 1047,
+        "3": 362,
+        "4": 407,
+        "5": 155,
+        "8": 18
+      },
+      "rank_mass": 8021,
+      "coordinate_entrance_dimensions": {
+        "1": 131,
+        "4": 44
+      }
+    },
+    "e8_bit_ordered_packing_audit_results.json": {
+      "status": "PASS_ORDERED175_T8_PACKING_EXACT_MOMENT",
+      "replicas": 8,
+      "banks_per_stage": 697,
+      "padding_rank_per_stage": 32,
+      "live": 13953,
+      "rank_mass": 1002120,
+      "deficit": 2496,
+      "child_count": 327585,
+      "profile": {
+        "1": 165168,
+        "2": 75384,
+        "3": 26064,
+        "4": 29304,
+        "5": 11160,
+        "7": 5760,
+        "8": 3216,
+        "14": 1920,
+        "22": 1920,
+        "28": 1920,
+        "32": 9,
+        "36": 1920,
+        "42": 1920,
+        "50": 1920
+      },
+      "owner_routes": 6576,
+      "max_owner_address_transpositions": 128,
+      "total_oneway_owner_address_transpositions": 417312,
+      "coarse_lower": "103621238290405131319/100000000000000000000000",
+      "coarse_upper": "1036212382904051313191/1000000000000000000000000",
+      "strict_moment_endpoint_residuals": [
+        "-1.7444904143749732e-24",
+        "6.572030594914325e-25"
+      ]
+    },
+    "e8_bit_ordered_records_audit_results.json": {
+      "pass": true,
+      "records": 19268,
+      "record_bytes": 462432,
+      "opcode_counts": {
+        "1": 14976,
+        "0": 4274,
+        "2": 9,
+        "3": 9
+      },
+      "local_histogram": {
+        "1": 2294,
+        "4": 407,
+        "3": 362,
+        "2": 1047,
+        "5": 155,
+        "8": 18
+      },
+      "all_dirty_columns": 1062,
+      "literal_inverse": true,
+      "frames": 944,
+      "files_sha256": {
+        "249-records.bin": "fdd1680e770e12872dce72978083cfa930d90453d06394be2da62506e2faed6d",
+        "249-states.json": "17cbfdb5d92e37fb29a271f9f0b2f47c626f405b868844af9b7c30def4a58556",
+        "frames.json": "884480e45865a9d9d57f5f7198844a64271b046bc95e9820efbefb9e10878330"
+      },
+      "scope": "PR249-style local logical instruction artifact with exact rational frames; global owner-bank routes and finite invoice are independently certified by companion audits."
+    },
+    "e8_bit_ordered_route_audit_results.json": {
+      "status": "PASS_ALL944_GRAMS_AND120_LITERAL_DYADIC_ROUTES",
+      "frame_count": 944,
+      "Gram_prime_set": [
+        2
+      ],
+      "Gram_determinants": [
+        "1",
+        "128",
+        "16",
+        "2",
+        "256",
+        "32",
+        "4",
+        "64",
+        "8"
+      ],
+      "port_routes": 120,
+      "max_elementary_factors": 77,
+      "factor_denominators": [
+        1,
+        2,
+        4
+      ],
+      "inverse_reconstruction_checks": 120,
+      "omitted_factor_controls": 120,
+      "scope": "Exact rationaladdressgeometry and explicitrouteprograms, unchangedfromcurrentR822roots/frames. No upstreamprogramsexecuted."
+    }
+  },
+  "scope": "No assembled kappa gain; inherited generic interfaces and no combined physical emitter remain explicit in README."
+}

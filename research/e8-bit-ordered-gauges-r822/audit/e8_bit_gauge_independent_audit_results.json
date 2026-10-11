@@ -1,0 +1,29 @@
+{
+  "status": "PASS_F2_DIRTY_SCALAR_AND_RATIONAL_FRAME_MODEL",
+  "base_sha256": "9974db5500941456e49030a5e5f374f34c707f76a40904fe1833df4f893a1c69",
+  "gauges": 111,
+  "entrance_mass": 159,
+  "prefix_xor_count": 257,
+  "all_live_columns": 1062,
+  "local_histogram": {
+    "1": 2237,
+    "2": 1031,
+    "3": 376,
+    "4": 363,
+    "5": 228,
+    "6": 1,
+    "8": 18
+  },
+  "rank_mass": 8169,
+  "residual_inventory": {
+    "4": 16,
+    "7": 95
+  },
+  "ungauged_full_residuals": 711,
+  "scope": "No literal endpoint Fourier/address adapters, bank packing, recursive compiler or analytic admission. Gauge method inheritedfromPR382; this audits transferredrelations onR822.",
+  "exact_candidate_sha256": "2a93052897bd66dc10f60fffe58584724ea3fd4c8de101d189fc5d28c8d9263a",
+  "exact_candidate_both_orientations": true,
+  "exact_candidate_rational_frame_walk": true,
+  "exact_integer_support_containment": true,
+  "exact_rational_target_caps": true
+}

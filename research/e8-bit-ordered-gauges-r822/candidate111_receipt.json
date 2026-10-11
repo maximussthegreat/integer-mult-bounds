@@ -1,0 +1,1908 @@
+{
+  "status": "PASS_LITERAL_111_GAUGE_LOCAL_SCALAR_FRAMES",
+  "word_sha256": "2a93052897bd66dc10f60fffe58584724ea3fd4c8de101d189fc5d28c8d9263a",
+  "source_sha256": "9974db5500941456e49030a5e5f374f34c707f76a40904fe1833df4f893a1c69",
+  "formal_columns": 1062,
+  "gauges": 111,
+  "entrance_mass": 159,
+  "entrance_gates": 257,
+  "donors": 72,
+  "entrance_rank_histogram": {
+    "1": 95,
+    "4": 16
+  },
+  "local_histogram": {
+    "1": 2237,
+    "2": 1031,
+    "3": 376,
+    "4": 363,
+    "5": 228,
+    "6": 1,
+    "8": 18
+  },
+  "local_rank_mass": 8169,
+  "residual_inventory": {
+    "4": 16,
+    "7": 95,
+    "8": 711
+  },
+  "selection": [
+    {
+      "entrance_roots": [
+        0
+      ],
+      "dimension": 1,
+      "pivot": 777,
+      "donors": [
+        762,
+        763,
+        776
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 2
+    },
+    {
+      "entrance_roots": [
+        0
+      ],
+      "dimension": 1,
+      "pivot": 789,
+      "donors": [
+        748,
+        749,
+        788
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 2
+    },
+    {
+      "entrance_roots": [
+        0
+      ],
+      "dimension": 1,
+      "pivot": 791,
+      "donors": [
+        762,
+        763,
+        790
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 2
+    },
+    {
+      "entrance_roots": [
+        0
+      ],
+      "dimension": 1,
+      "pivot": 801,
+      "donors": [
+        748,
+        749,
+        800
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 2
+    },
+    {
+      "entrance_roots": [
+        0
+      ],
+      "dimension": 1,
+      "pivot": 804,
+      "donors": [
+        762,
+        776,
+        790
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 2
+    },
+    {
+      "entrance_roots": [
+        0
+      ],
+      "dimension": 1,
+      "pivot": 805,
+      "donors": [
+        763,
+        776,
+        790
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 2
+    },
+    {
+      "entrance_roots": [
+        0
+      ],
+      "dimension": 1,
+      "pivot": 814,
+      "donors": [
+        776,
+        790
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 2
+    },
+    {
+      "entrance_roots": [
+        0
+      ],
+      "dimension": 1,
+      "pivot": 815,
+      "donors": [
+        762,
+        763,
+        776,
+        790
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 2
+    },
+    {
+      "entrance_roots": [
+        0
+      ],
+      "dimension": 1,
+      "pivot": 818,
+      "donors": [
+        748,
+        800
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 2
+    },
+    {
+      "entrance_roots": [
+        0
+      ],
+      "dimension": 1,
+      "pivot": 819,
+      "donors": [
+        749,
+        800
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 2
+    },
+    {
+      "entrance_roots": [
+        0
+      ],
+      "dimension": 1,
+      "pivot": 828,
+      "donors": [
+        762,
+        790
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 2
+    },
+    {
+      "entrance_roots": [
+        0
+      ],
+      "dimension": 1,
+      "pivot": 829,
+      "donors": [
+        763,
+        790
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 2
+    },
+    {
+      "entrance_roots": [
+        0
+      ],
+      "dimension": 1,
+      "pivot": 830,
+      "donors": [
+        748,
+        788
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 2
+    },
+    {
+      "entrance_roots": [
+        0
+      ],
+      "dimension": 1,
+      "pivot": 831,
+      "donors": [
+        749,
+        788
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 2
+    },
+    {
+      "entrance_roots": [
+        1
+      ],
+      "dimension": 1,
+      "pivot": 743,
+      "donors": [
+        248,
+        742
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 3
+    },
+    {
+      "entrance_roots": [
+        1
+      ],
+      "dimension": 1,
+      "pivot": 757,
+      "donors": [
+        248,
+        756
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 3
+    },
+    {
+      "entrance_roots": [
+        1
+      ],
+      "dimension": 1,
+      "pivot": 769,
+      "donors": [
+        248,
+        768
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 3
+    },
+    {
+      "entrance_roots": [
+        1
+      ],
+      "dimension": 1,
+      "pivot": 857,
+      "donors": [
+        842,
+        843,
+        856
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 3
+    },
+    {
+      "entrance_roots": [
+        1
+      ],
+      "dimension": 1,
+      "pivot": 870,
+      "donors": [
+        842,
+        856
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 3
+    },
+    {
+      "entrance_roots": [
+        1
+      ],
+      "dimension": 1,
+      "pivot": 871,
+      "donors": [
+        843,
+        856
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 3
+    },
+    {
+      "entrance_roots": [
+        1
+      ],
+      "dimension": 1,
+      "pivot": 874,
+      "donors": [
+        742,
+        768
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 3
+    },
+    {
+      "entrance_roots": [
+        1
+      ],
+      "dimension": 1,
+      "pivot": 875,
+      "donors": [
+        248,
+        742,
+        768
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 3
+    },
+    {
+      "entrance_roots": [
+        1
+      ],
+      "dimension": 1,
+      "pivot": 888,
+      "donors": [
+        742,
+        756
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 3
+    },
+    {
+      "entrance_roots": [
+        1
+      ],
+      "dimension": 1,
+      "pivot": 889,
+      "donors": [
+        248,
+        742,
+        756
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 3
+    },
+    {
+      "entrance_roots": [
+        2
+      ],
+      "dimension": 1,
+      "pivot": 738,
+      "donors": [
+        257,
+        736
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 4
+    },
+    {
+      "entrance_roots": [
+        2
+      ],
+      "dimension": 1,
+      "pivot": 739,
+      "donors": [
+        256,
+        737
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 4
+    },
+    {
+      "entrance_roots": [
+        2
+      ],
+      "dimension": 1,
+      "pivot": 785,
+      "donors": [
+        256,
+        784
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 4
+    },
+    {
+      "entrance_roots": [
+        2
+      ],
+      "dimension": 1,
+      "pivot": 797,
+      "donors": [
+        257,
+        796
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 4
+    },
+    {
+      "entrance_roots": [
+        2
+      ],
+      "dimension": 1,
+      "pivot": 799,
+      "donors": [
+        256,
+        798
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 4
+    },
+    {
+      "entrance_roots": [
+        2
+      ],
+      "dimension": 1,
+      "pivot": 839,
+      "donors": [
+        257,
+        838
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 4
+    },
+    {
+      "entrance_roots": [
+        2
+      ],
+      "dimension": 1,
+      "pivot": 840,
+      "donors": [
+        737,
+        798
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 4
+    },
+    {
+      "entrance_roots": [
+        2
+      ],
+      "dimension": 1,
+      "pivot": 841,
+      "donors": [
+        256,
+        737,
+        798
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 4
+    },
+    {
+      "entrance_roots": [
+        2
+      ],
+      "dimension": 1,
+      "pivot": 854,
+      "donors": [
+        737,
+        784
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 4
+    },
+    {
+      "entrance_roots": [
+        2
+      ],
+      "dimension": 1,
+      "pivot": 855,
+      "donors": [
+        256,
+        737,
+        784
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 4
+    },
+    {
+      "entrance_roots": [
+        2
+      ],
+      "dimension": 1,
+      "pivot": 861,
+      "donors": [
+        254,
+        860
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 4
+    },
+    {
+      "entrance_roots": [
+        2
+      ],
+      "dimension": 1,
+      "pivot": 894,
+      "donors": [
+        736,
+        796,
+        838
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 4
+    },
+    {
+      "entrance_roots": [
+        2
+      ],
+      "dimension": 1,
+      "pivot": 895,
+      "donors": [
+        257,
+        736,
+        796,
+        838
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 4
+    },
+    {
+      "entrance_roots": [
+        2
+      ],
+      "dimension": 1,
+      "pivot": 903,
+      "donors": [
+        254,
+        902
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 4
+    },
+    {
+      "entrance_roots": [
+        2
+      ],
+      "dimension": 1,
+      "pivot": 908,
+      "donors": [
+        784,
+        798
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 4
+    },
+    {
+      "entrance_roots": [
+        2
+      ],
+      "dimension": 1,
+      "pivot": 909,
+      "donors": [
+        256,
+        784,
+        798
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 4
+    },
+    {
+      "entrance_roots": [
+        2
+      ],
+      "dimension": 1,
+      "pivot": 916,
+      "donors": [
+        860,
+        902
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 4
+    },
+    {
+      "entrance_roots": [
+        2
+      ],
+      "dimension": 1,
+      "pivot": 917,
+      "donors": [
+        254,
+        860,
+        902
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 4
+    },
+    {
+      "entrance_roots": [
+        5
+      ],
+      "dimension": 1,
+      "pivot": 752,
+      "donors": [
+        274,
+        750
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 7
+    },
+    {
+      "entrance_roots": [
+        5
+      ],
+      "dimension": 1,
+      "pivot": 753,
+      "donors": [
+        275,
+        751
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 7
+    },
+    {
+      "entrance_roots": [
+        5
+      ],
+      "dimension": 1,
+      "pivot": 795,
+      "donors": [
+        275,
+        793
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 7
+    },
+    {
+      "entrance_roots": [
+        5
+      ],
+      "dimension": 1,
+      "pivot": 827,
+      "donors": [
+        274,
+        826
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 7
+    },
+    {
+      "entrance_roots": [
+        5
+      ],
+      "dimension": 1,
+      "pivot": 879,
+      "donors": [
+        275,
+        877
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 7
+    },
+    {
+      "entrance_roots": [
+        5
+      ],
+      "dimension": 1,
+      "pivot": 883,
+      "donors": [
+        274,
+        882
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 7
+    },
+    {
+      "entrance_roots": [
+        5
+      ],
+      "dimension": 1,
+      "pivot": 891,
+      "donors": [
+        751,
+        793,
+        877
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 7
+    },
+    {
+      "entrance_roots": [
+        5
+      ],
+      "dimension": 1,
+      "pivot": 893,
+      "donors": [
+        275,
+        751,
+        793,
+        877
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 7
+    },
+    {
+      "entrance_roots": [
+        5
+      ],
+      "dimension": 1,
+      "pivot": 922,
+      "donors": [
+        750,
+        826,
+        882
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 7
+    },
+    {
+      "entrance_roots": [
+        5
+      ],
+      "dimension": 1,
+      "pivot": 923,
+      "donors": [
+        274,
+        750,
+        826,
+        882
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 7
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 767,
+      "donors": [
+        281,
+        765
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 780,
+      "donors": [
+        279,
+        778
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 781,
+      "donors": [
+        281,
+        779
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 783,
+      "donors": [
+        764,
+        766,
+        782
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 822,
+      "donors": [
+        770,
+        771,
+        820
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 823,
+      "donors": [
+        281,
+        821
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 825,
+      "donors": [
+        764,
+        766,
+        824
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 833,
+      "donors": [
+        786,
+        787,
+        832
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 849,
+      "donors": [
+        765,
+        779
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 851,
+      "donors": [
+        281,
+        765,
+        779
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 852,
+      "donors": [
+        764,
+        824
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 853,
+      "donors": [
+        766,
+        824
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 859,
+      "donors": [
+        279,
+        858
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 863,
+      "donors": [
+        765,
+        821
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 865,
+      "donors": [
+        281,
+        765,
+        821
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 866,
+      "donors": [
+        764,
+        782
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 867,
+      "donors": [
+        766,
+        782
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 873,
+      "donors": [
+        770,
+        771,
+        872
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 905,
+      "donors": [
+        779,
+        821
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 906,
+      "donors": [
+        786,
+        787,
+        904
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 913,
+      "donors": [
+        279,
+        912
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 914,
+      "donors": [
+        770,
+        820
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 915,
+      "donors": [
+        771,
+        820
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 918,
+      "donors": [
+        786,
+        832,
+        904
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 919,
+      "donors": [
+        782,
+        824
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 920,
+      "donors": [
+        787,
+        832,
+        904
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 921,
+      "donors": [
+        764,
+        766,
+        782,
+        824
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 926,
+      "donors": [
+        858,
+        912
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 927,
+      "donors": [
+        279,
+        858,
+        912
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 928,
+      "donors": [
+        770,
+        820,
+        872
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 929,
+      "donors": [
+        771,
+        820,
+        872
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 1012,
+      "donors": [
+        953
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 1021,
+      "donors": [
+        786,
+        832,
+        980
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 1022,
+      "donors": [
+        939,
+        953
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 1023,
+      "donors": [
+        980
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 1032,
+      "donors": [
+        778,
+        858,
+        912,
+        944
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 1033,
+      "donors": [
+        944
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 1034,
+      "donors": [
+        764,
+        782,
+        824,
+        975
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 1035,
+      "donors": [
+        975
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 1042,
+      "donors": [
+        765,
+        779,
+        821,
+        973
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 1043,
+      "donors": [
+        973
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 1048,
+      "donors": [
+        770,
+        872,
+        941
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        6
+      ],
+      "dimension": 1,
+      "pivot": 1049,
+      "donors": [
+        941
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 8
+    },
+    {
+      "entrance_roots": [
+        0,
+        1,
+        2,
+        3,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "dimension": 4,
+      "pivot": 1001,
+      "donors": [
+        986
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 458
+    },
+    {
+      "entrance_roots": [
+        0,
+        1,
+        2,
+        3,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "dimension": 4,
+      "pivot": 1004,
+      "donors": [
+        956,
+        986
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 458
+    },
+    {
+      "entrance_roots": [
+        0,
+        1,
+        2,
+        3,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "dimension": 4,
+      "pivot": 1015,
+      "donors": [
+        956,
+        986
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 458
+    },
+    {
+      "entrance_roots": [
+        0,
+        2,
+        5,
+        7,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "dimension": 4,
+      "pivot": 1018,
+      "donors": [
+        949
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 462
+    },
+    {
+      "entrance_roots": [
+        0,
+        3,
+        4,
+        7,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "dimension": 4,
+      "pivot": 969,
+      "donors": [
+        938,
+        952
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 463
+    },
+    {
+      "entrance_roots": [
+        0,
+        3,
+        4,
+        7,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "dimension": 4,
+      "pivot": 984,
+      "donors": [
+        952
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 463
+    },
+    {
+      "entrance_roots": [
+        0,
+        3,
+        4,
+        7,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "dimension": 4,
+      "pivot": 998,
+      "donors": [
+        938,
+        952
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 463
+    },
+    {
+      "entrance_roots": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "dimension": 4,
+      "pivot": 958,
+      "donors": [
+        937,
+        945
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 465
+    },
+    {
+      "entrance_roots": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "dimension": 4,
+      "pivot": 1047,
+      "donors": [
+        945
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 465
+    },
+    {
+      "entrance_roots": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "dimension": 4,
+      "pivot": 1051,
+      "donors": [
+        937,
+        945
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 465
+    },
+    {
+      "entrance_roots": [
+        1,
+        3,
+        5,
+        7,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111
+      ],
+      "dimension": 4,
+      "pivot": 957,
+      "donors": [
+        934,
+        940
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 468
+    },
+    {
+      "entrance_roots": [
+        1,
+        3,
+        5,
+        7,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111
+      ],
+      "dimension": 4,
+      "pivot": 1031,
+      "donors": [
+        934,
+        940
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 468
+    },
+    {
+      "entrance_roots": [
+        1,
+        3,
+        5,
+        7,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111
+      ],
+      "dimension": 4,
+      "pivot": 1039,
+      "donors": [
+        940
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 468
+    },
+    {
+      "entrance_roots": [
+        2,
+        3,
+        4,
+        5,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103
+      ],
+      "dimension": 4,
+      "pivot": 990,
+      "donors": [
+        933,
+        977
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 469
+    },
+    {
+      "entrance_roots": [
+        2,
+        3,
+        4,
+        5,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103
+      ],
+      "dimension": 4,
+      "pivot": 1029,
+      "donors": [
+        977
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 469
+    },
+    {
+      "entrance_roots": [
+        2,
+        3,
+        4,
+        5,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103
+      ],
+      "dimension": 4,
+      "pivot": 1037,
+      "donors": [
+        933,
+        977
+      ],
+      "response_ok": true,
+      "first_frame_ok": true,
+      "distinct": true,
+      "frame": 469
+    }
+  ],
+  "scope": "F2 dirty scalar/inverse prefix and rootset frame nesting; independent rational geometric audit, changed entrance-completion/global routes and invoice still required."
+}

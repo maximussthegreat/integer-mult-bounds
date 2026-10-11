@@ -1,0 +1,28 @@
+{
+  "pass": true,
+  "records": 19268,
+  "record_bytes": 462432,
+  "opcode_counts": {
+    "1": 14976,
+    "0": 4274,
+    "2": 9,
+    "3": 9
+  },
+  "local_histogram": {
+    "1": 2294,
+    "4": 407,
+    "3": 362,
+    "2": 1047,
+    "5": 155,
+    "8": 18
+  },
+  "all_dirty_columns": 1062,
+  "literal_inverse": true,
+  "frames": 944,
+  "files_sha256": {
+    "249-records.bin": "fdd1680e770e12872dce72978083cfa930d90453d06394be2da62506e2faed6d",
+    "249-states.json": "17cbfdb5d92e37fb29a271f9f0b2f47c626f405b868844af9b7c30def4a58556",
+    "frames.json": "884480e45865a9d9d57f5f7198844a64271b046bc95e9820efbefb9e10878330"
+  },
+  "scope": "PR249-style local logical instruction artifact with exact rational frames; global owner-bank routes and finite invoice are independently certified by companion audits."
+}

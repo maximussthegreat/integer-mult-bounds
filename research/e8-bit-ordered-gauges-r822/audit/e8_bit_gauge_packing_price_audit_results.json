@@ -1,0 +1,40 @@
+{
+  "status": "PASS_COORDINATE_ENTRANCES_CONCRETE_OWNER_ROUTES_EXACT_CONDITIONAL_MOMENT",
+  "gauges": 111,
+  "entrance_dimensions": {
+    "1": 95,
+    "4": 16
+  },
+  "replicas": 8,
+  "banks_per_stage": 713,
+  "residual_roles": 6576,
+  "padding": 0,
+  "live": 14097,
+  "profile": {
+    "1": 161064,
+    "2": 74232,
+    "3": 27072,
+    "4": 26136,
+    "5": 16416,
+    "6": 72,
+    "7": 5760,
+    "8": 3216,
+    "14": 1920,
+    "22": 1920,
+    "28": 1920,
+    "36": 1920,
+    "42": 1920,
+    "50": 1920
+  },
+  "rank_mass": 1012488,
+  "deficit": 2496,
+  "child_count": 325488,
+  "coarse_lower": "1028490312861249899907/1000000000000000000000000",
+  "coarse_upper": "257122578215312474977/250000000000000000000000",
+  "moment_lower_endpoint_upper_minus_one": "-1.2103144480578067e-24",
+  "moment_upper_endpoint_lower_minus_one": "1.1846395893524402e-24",
+  "scope": "Exact formalcoordinate residual packing and inversepermutations. Residualphysicalmeaning and fallbackengine portability remain assumptions; no literal phase/compiler/invoice admission, no assembledkappa claim.",
+  "explicit_coordinate_partial_swap_charts": 111,
+  "partial_swap_both_orientations": true,
+  "coordinate_chart_scope": "Exact16-coordinate addresspermutation matrices D_full D_E=D_complement, including signs(+1). Applies when supplierendpoint normalization is the specifiedpartialswapmodel; fullglobalwrapper/compiler stillunverified."
+}

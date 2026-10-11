@@ -1,0 +1,35 @@
+{
+  "status": "PASS_ORDERED175_T8_PACKING_EXACT_MOMENT",
+  "replicas": 8,
+  "banks_per_stage": 697,
+  "padding_rank_per_stage": 32,
+  "live": 13953,
+  "rank_mass": 1002120,
+  "deficit": 2496,
+  "child_count": 327585,
+  "profile": {
+    "1": 165168,
+    "2": 75384,
+    "3": 26064,
+    "4": 29304,
+    "5": 11160,
+    "7": 5760,
+    "8": 3216,
+    "14": 1920,
+    "22": 1920,
+    "28": 1920,
+    "32": 9,
+    "36": 1920,
+    "42": 1920,
+    "50": 1920
+  },
+  "owner_routes": 6576,
+  "max_owner_address_transpositions": 128,
+  "total_oneway_owner_address_transpositions": 417312,
+  "coarse_lower": "103621238290405131319/100000000000000000000000",
+  "coarse_upper": "1036212382904051313191/1000000000000000000000000",
+  "strict_moment_endpoint_residuals": [
+    "-1.7444904143749732e-24",
+    "6.572030594914325e-25"
+  ]
+}
