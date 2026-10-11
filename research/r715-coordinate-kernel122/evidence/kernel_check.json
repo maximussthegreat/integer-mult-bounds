@@ -1,0 +1,22 @@
+{
+  "rank": 122,
+  "pivot_count": 100,
+  "donor_count": 119,
+  "widths": {
+    "8": 615,
+    "6": 22,
+    "7": 78
+  },
+  "profile": {
+    "1": 2473,
+    "2": 1106,
+    "3": 259,
+    "5": 30,
+    "4": 415,
+    "6": 1,
+    "8": 9
+  },
+  "integer_support_violations": 0,
+  "f2_support_violations": 0,
+  "all_formal_F2_columns": 955
+}

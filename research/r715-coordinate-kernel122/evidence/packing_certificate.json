@@ -1,0 +1,46 @@
+{
+  "status": "PASS_COMPONENT_F2_FRAMES_WHOLE_PACKING_AND_NEW_SCALAR_PREFIX",
+  "replicas": 4,
+  "live": 4800,
+  "physical": 4809,
+  "hosted_residuals": 31460,
+  "profile": {
+    "1": 103004,
+    "2": 50501,
+    "3": 11396,
+    "4": 16241,
+    "5": 2552,
+    "6": 3452,
+    "7": 2240,
+    "8": 396,
+    "42": 1,
+    "56": 308
+  },
+  "idle_profile": {
+    "1": 352,
+    "2": 1837,
+    "4": 1677,
+    "6": 944,
+    "7": 2240,
+    "42": 1,
+    "56": 308
+  },
+  "rank_mass": 372768,
+  "deficit": 1632,
+  "maxchild": 56,
+  "expanded_event_count": 857296,
+  "expanded_sha256": "caecf66e0d40e7c232b703c263f2f9d4ca3a02d3ff4b3172fc73bdfae160fddd",
+  "prefix_bound": "470975786285689492802925316641827408560000536460842499679571199283313292910451116955830503760346760990806680735769697492462499439734588350795601173184985347243521603677533868033306926",
+  "prefix_bits": 607,
+  "charged_prefix_bits": 640,
+  "invoice_coefficient_bits": 607,
+  "three_level_coefficient_bits": 1874,
+  "charged_three_level_bits": 1920,
+  "row_coefficient": 19428,
+  "routing_factor_charge_per_selector": 24495,
+  "limits": [
+    "The607-bit quantity is only a scalar physical-family envelope; no full routed/literal compiler-prefix bound is certified.",
+    "Rational entrance isometries and denominator checks are handled separately.",
+    "Component invoice overcharges finite coordinate elimination; source-bound full supplier receipt remains required."
+  ]
+}

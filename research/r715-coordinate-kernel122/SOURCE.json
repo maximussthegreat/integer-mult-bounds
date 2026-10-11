@@ -1,0 +1,24 @@
+{
+  "repository": "CrocSwap/integer-mult-bounds",
+  "r715": {
+    "pr": 463,
+    "commit": "1b1de4833686bfa335509b21266afc44baef0fd2",
+    "path": "research/e8-carrier-rekid-r715/data/R715_FP_final.json.gz",
+    "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/1b1de4833686bfa335509b21266afc44baef0fd2/research/e8-carrier-rekid-r715/data/R715_FP_final.json.gz",
+    "sha256": "29dd444ad58ed8659ba88e30689f3516466d62488f99819eedf0b81a6ee56931"
+  },
+  "pooling_contract": {
+    "pr": 462,
+    "commit": "4fc07b29dfd8d9f924b60208b43f9a63c1c5b292"
+  },
+  "comparison_arithmetic": {
+    "pr": 465,
+    "commit": "22c2a15c232084a31b6c8f0263e2e8ce831047ea"
+  },
+  "complex_supplier": {
+    "pr": 458,
+    "commit": "66f35b78d6fa32b2fea08765c2d6ae85e1c72fc3",
+    "lower": "1297203880559577927527/1000000000000000000000000"
+  },
+  "execution_boundary": "All executed component checkers are independently authored. Upstream source programs were read as inert text only."
+}
