@@ -12,6 +12,11 @@ PACKAGE = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT / "scripts"))
 
 from experiments.single_intersection import spectral_parity_bound
+_PIN_HELPER = ROOT / 'research/ci-provenance-maintenance/provenance_pins.py'
+if sha256(_PIN_HELPER.read_bytes()).hexdigest() != 'daddb5f90c13e9f31f99314d3fe713223d869cc91ca122dd2b127a802434e7a4':
+    raise ValueError('Changed provenance maintenance checker')
+sys.path.insert(0, str(ROOT / "research/ci-provenance-maintenance"))
+from provenance_pins import SourcePinError, source_digest
 
 
 class AuditFailure(ValueError):
@@ -161,11 +166,15 @@ def audit_case(h: int, k: int, j: int) -> CaseResult:
 def source_pins() -> dict[str, str]:
     source = json.loads((PACKAGE / "SOURCE.json").read_text())
     pins: dict[str, str] = source["source_sha256"]
+    actual_pins = {}
     for path, expected in pins.items():
-        require(sha256((ROOT / ('research/single-intersection-spectrum-audit/BASE-CHECKPOINT.json'
-                        if path == 'certificates/selected-result.json' else path)).read_bytes()).hexdigest() == expected,
-                "Changed pinned source: " + path)
-    return pins
+        try:
+            checked_path = ('research/single-intersection-spectrum-audit/BASE-CHECKPOINT.json'
+                            if path == 'certificates/selected-result.json' else path)
+            actual_pins[path] = source_digest(ROOT, 'spectrum-sources', checked_path, expected)
+        except SourcePinError as error:
+            raise AuditFailure('Changed pinned source: ' + path + '; ' + str(error)) from error
+    return actual_pins
 
 
 def negative_controls() -> dict[str, object]:

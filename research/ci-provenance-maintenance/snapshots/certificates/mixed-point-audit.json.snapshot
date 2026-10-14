@@ -1,0 +1,495 @@
+{
+  "decision": "Stop this bounded topology/factoring search. Retain the source/target-span cut lemma and exact checker for future circuits; current full-size counts miss 2^-30 even with no extra rank losses.",
+  "enclosure_obstruction": {
+    "ambient_dimension": 10,
+    "common_radical": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "intersection_dimension": 1,
+    "scope": "No nondegenerate subspace E with U subset E subset V-perp; does not reject arbitrary nonnested matrix frames.",
+    "source_dimension": 3,
+    "sources": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        3,
+        4,
+        5
+      ],
+      [
+        6,
+        7,
+        8
+      ]
+    ],
+    "target_dimension": 7,
+    "targets": [
+      [
+        0,
+        3,
+        6
+      ],
+      [
+        0,
+        3,
+        7
+      ],
+      [
+        0,
+        3,
+        8
+      ],
+      [
+        0,
+        4,
+        6
+      ],
+      [
+        0,
+        4,
+        7
+      ],
+      [
+        0,
+        4,
+        8
+      ],
+      [
+        0,
+        5,
+        6
+      ],
+      [
+        0,
+        5,
+        7
+      ],
+      [
+        0,
+        5,
+        8
+      ],
+      [
+        1,
+        3,
+        6
+      ],
+      [
+        1,
+        3,
+        7
+      ],
+      [
+        1,
+        3,
+        8
+      ],
+      [
+        1,
+        4,
+        6
+      ],
+      [
+        1,
+        4,
+        7
+      ],
+      [
+        1,
+        4,
+        8
+      ],
+      [
+        1,
+        5,
+        6
+      ],
+      [
+        1,
+        5,
+        7
+      ],
+      [
+        1,
+        5,
+        8
+      ],
+      [
+        2,
+        3,
+        6
+      ],
+      [
+        2,
+        3,
+        7
+      ],
+      [
+        2,
+        3,
+        8
+      ],
+      [
+        2,
+        4,
+        6
+      ],
+      [
+        2,
+        4,
+        7
+      ],
+      [
+        2,
+        4,
+        8
+      ],
+      [
+        2,
+        5,
+        6
+      ],
+      [
+        2,
+        5,
+        7
+      ],
+      [
+        2,
+        5,
+        8
+      ]
+    ]
+  },
+  "factored_transposition_rounds": [
+    {
+      "factoring": {
+        "expressions": 297532,
+        "factors": 28066
+      },
+      "scalar": {
+        "additions": 432217,
+        "all_coefficients_exact": true,
+        "circuit_sha256": "a784b3dea61eb8d9e7551cb697e3fb562ce6ab92ecfaa5c03b15a6a0312cbd07",
+        "every_addition_has_disjoint_support": true,
+        "h": 50,
+        "outputs": 19600,
+        "roles": 451817
+      },
+      "step": 1
+    },
+    {
+      "factoring": {
+        "expressions": 279377,
+        "factors": 4275
+      },
+      "scalar": {
+        "additions": 427926,
+        "all_coefficients_exact": true,
+        "circuit_sha256": "e6cd5a1bc59155b6774d0b6687068434db9c8b87cf531df35cda93a4f7e06520",
+        "every_addition_has_disjoint_support": true,
+        "h": 50,
+        "outputs": 19600,
+        "roles": 447526
+      },
+      "step": 2
+    },
+    {
+      "factoring": {
+        "expressions": 283447,
+        "factors": 16
+      },
+      "scalar": {
+        "additions": 427899,
+        "all_coefficients_exact": true,
+        "circuit_sha256": "bdf2d2cb195ff8f190064bcc9b3dcddd5b7b37ba32c4d086fa274139c7310004",
+        "every_addition_has_disjoint_support": true,
+        "h": 50,
+        "outputs": 19600,
+        "roles": 447499
+      },
+      "step": 3
+    },
+    {
+      "factoring": {
+        "expressions": 283458,
+        "factors": 11
+      },
+      "scalar": {
+        "additions": 427888,
+        "all_coefficients_exact": true,
+        "circuit_sha256": "f999ccafdda4de1902045ef8b02d1c52b87c846ebdfeefc05d5d5cbbeb50aa6d",
+        "every_addition_has_disjoint_support": true,
+        "h": 50,
+        "outputs": 19600,
+        "roles": 447488
+      },
+      "step": 4
+    }
+  ],
+  "full_size_decompositions": [
+    {
+      "plan": [
+        865174,
+        "split",
+        25
+      ],
+      "scalar": {
+        "additions": 679061,
+        "all_coefficients_exact": true,
+        "circuit_sha256": "0f3bdef6b4331563e9bc7a7ee382397fb5891d89cd14c72b2ba1e3ea01dccbd7",
+        "every_addition_has_disjoint_support": true,
+        "h": 50,
+        "outputs": 19600,
+        "roles": 698661
+      },
+      "strategy": "block_only"
+    },
+    {
+      "plan": [
+        529850,
+        "common",
+        0
+      ],
+      "scalar": {
+        "additions": 489594,
+        "all_coefficients_exact": true,
+        "circuit_sha256": "9f8ba73b1e811a3b6a6b119453637c5dc79bc8c0be133044aa94c8f1ff527456",
+        "every_addition_has_disjoint_support": true,
+        "h": 50,
+        "outputs": 19600,
+        "roles": 509194
+      },
+      "strategy": "hybrid"
+    }
+  ],
+  "full_size_frame_certificate_supplied": false,
+  "optimistic_score": {
+    "bit_saving_upper_if_no_extra_losses": "41358760138294115194537191520688164344080004620978781931526106574303663807090159636948807832955539215798233982221675049808436636654687311282082944966112498227338557009711322700255656419630839963018412988665488219400201675/12323030478267003753268112307212516453578708478026945120217752972522961246845619589433514924030577656574716185130558806592111908621163582314883778623931014279224469307317601800370677830525342295947546459149357919322365919102805376",
+    "fraction_of_target": "69388485233235024214763248217595380184412855880715915588211069963611261728293393970357172995598699981991758393827320219244690007546920643383874249761258206305967607608024095858789240297393324232099192668804644760233257394503680/96273675611460966822407127400097784793583659984585508751701195097835634740981403042449335343988887941989970196332490676500874286102840486835029520499461049056441166463418764065395920550979236687090206712104358744705983742990667",
+    "kappa_upper_if_no_extra_losses": "8271752027658823038907438304137632868816000924195756386305221314860732761418031927389761566591107843159646796444335009961687327330937462256416588993222499645467711401942264540051131283926167992603682597733097643880040335/12323030478267003753268112307212516453578708478026945120217752972522961246845619589433514924030577656574716185130558806592111908621163582314883778623931014279224469307317601800370677830525342295947546459149357919322365919102805376",
+    "necessary_integer_role_budget": 317035,
+    "scope": "Retained dimension, central losses, stage sharing and Gaussian assembly; assumes a loss-free frame certificate that has NOT been supplied at this size."
+  },
+  "role_reduction": "30853/254597",
+  "small_frame_controls": [
+    {
+      "dirty": {
+        "all_independent_scratch_inputs_restored": true,
+        "independent_variables": 2154,
+        "side_map_exact": true
+      },
+      "frames": {
+        "compiled": {
+          "forward_nested": true,
+          "reverse_nested": true,
+          "roles": 2034,
+          "source_and_injection_frames_checked": true
+        },
+        "cut_certified": true,
+        "cut_failures": [],
+        "forced_dual_nodes": 0,
+        "frame_sha256": "c9d02ae213c12350bb0ad370e5b11712fe315fdd16840adc94414749b96f3783",
+        "h": 10,
+        "local_nonzero_source_target_intersections": 0,
+        "roles": 2034,
+        "singular_source_spans": 0
+      },
+      "scalar": {
+        "additions": 1914,
+        "all_coefficients_exact": true,
+        "circuit_sha256": "02a20ddf3561c2c127376e866f9f942a4ab2880371be0d09d82df7158685517f",
+        "every_addition_has_disjoint_support": true,
+        "h": 10,
+        "outputs": 120,
+        "roles": 2034
+      },
+      "step": 0
+    },
+    {
+      "dirty": {
+        "all_independent_scratch_inputs_restored": true,
+        "independent_variables": 1918,
+        "side_map_exact": true
+      },
+      "frames": {
+        "compiled": {
+          "forward_nested": true,
+          "reverse_nested": true,
+          "roles": 1798,
+          "source_and_injection_frames_checked": true
+        },
+        "cut_certified": true,
+        "cut_failures": [],
+        "forced_dual_nodes": 48,
+        "frame_sha256": "980c886ebd624a3b06e13d86e5b2c3e25e3020bb0c9a1092689e6e0386ce58e8",
+        "h": 10,
+        "local_nonzero_source_target_intersections": 0,
+        "roles": 1798,
+        "singular_source_spans": 16
+      },
+      "scalar": {
+        "additions": 1678,
+        "all_coefficients_exact": true,
+        "circuit_sha256": "a9e054af3d404209895b75f10965400c48b8e1aab23f25ded4e4f74e42460d5e",
+        "every_addition_has_disjoint_support": true,
+        "h": 10,
+        "outputs": 120,
+        "roles": 1798
+      },
+      "step": 1
+    },
+    {
+      "dirty": {
+        "all_independent_scratch_inputs_restored": true,
+        "independent_variables": 1899,
+        "side_map_exact": true
+      },
+      "frames": {
+        "compiled": {
+          "forward_nested": true,
+          "reverse_nested": true,
+          "roles": 1779,
+          "source_and_injection_frames_checked": true
+        },
+        "cut_certified": true,
+        "cut_failures": [],
+        "forced_dual_nodes": 64,
+        "frame_sha256": "3dfdfc13d967f94ec37c83d67563b79fddb837508c0e9feefac11afd594db0a9",
+        "h": 10,
+        "local_nonzero_source_target_intersections": 0,
+        "roles": 1779,
+        "singular_source_spans": 31
+      },
+      "scalar": {
+        "additions": 1659,
+        "all_coefficients_exact": true,
+        "circuit_sha256": "ff3bffb65fc994e8ba9e9a674ca448cc9a21bf6942cd2a32d649b5ec6432cfe9",
+        "every_addition_has_disjoint_support": true,
+        "h": 10,
+        "outputs": 120,
+        "roles": 1779
+      },
+      "step": 2
+    },
+    {
+      "dirty": {
+        "all_independent_scratch_inputs_restored": true,
+        "independent_variables": 4405,
+        "side_map_exact": true
+      },
+      "frames": {
+        "compiled": {
+          "forward_nested": true,
+          "reverse_nested": true,
+          "roles": 4185,
+          "source_and_injection_frames_checked": true
+        },
+        "cut_certified": true,
+        "cut_failures": [],
+        "forced_dual_nodes": 0,
+        "frame_sha256": "6b98566e0550af50436a6758f1864ac727f6ff1c79c9a8d30f307c3fc4c836f9",
+        "h": 12,
+        "local_nonzero_source_target_intersections": 0,
+        "roles": 4185,
+        "singular_source_spans": 0
+      },
+      "scalar": {
+        "additions": 3965,
+        "all_coefficients_exact": true,
+        "circuit_sha256": "88531d263d086de52b8657c113f1a9a8827fe1d8f6362439ab51a883b42d32bc",
+        "every_addition_has_disjoint_support": true,
+        "h": 12,
+        "outputs": 220,
+        "roles": 4185
+      },
+      "step": 0
+    },
+    {
+      "dirty": {
+        "all_independent_scratch_inputs_restored": true,
+        "independent_variables": 3907,
+        "side_map_exact": true
+      },
+      "frames": {
+        "compiled": {
+          "forward_nested": true,
+          "reverse_nested": true,
+          "roles": 3687,
+          "source_and_injection_frames_checked": true
+        },
+        "cut_certified": true,
+        "cut_failures": [],
+        "forced_dual_nodes": 969,
+        "frame_sha256": "23703f4cca0f82993f4a1d39ff2b75ec7ab6547998d805a0005df0cc022e5ba3",
+        "h": 12,
+        "local_nonzero_source_target_intersections": 0,
+        "roles": 3687,
+        "singular_source_spans": 320
+      },
+      "scalar": {
+        "additions": 3467,
+        "all_coefficients_exact": true,
+        "circuit_sha256": "70023f7adc615dbbf3fb08e34eab290911ac2b46c8313b797632995f1500b877",
+        "every_addition_has_disjoint_support": true,
+        "h": 12,
+        "outputs": 220,
+        "roles": 3687
+      },
+      "step": 1
+    },
+    {
+      "dirty": {
+        "all_independent_scratch_inputs_restored": true,
+        "independent_variables": 3872,
+        "side_map_exact": true
+      },
+      "frames": {
+        "compiled": {
+          "forward_nested": true,
+          "reverse_nested": true,
+          "roles": 3652,
+          "source_and_injection_frames_checked": true
+        },
+        "cut_certified": true,
+        "cut_failures": [],
+        "forced_dual_nodes": 1046,
+        "frame_sha256": "d748ec13465815bffdcdac1584ab30b12379679611354a93175b9203462bff8f",
+        "h": 12,
+        "local_nonzero_source_target_intersections": 0,
+        "roles": 3652,
+        "singular_source_spans": 306
+      },
+      "scalar": {
+        "additions": 3432,
+        "all_coefficients_exact": true,
+        "circuit_sha256": "39a0e0bc5ad702935d8483fe7573ec1276571c7c461522df914a752470d585d1",
+        "every_addition_has_disjoint_support": true,
+        "h": 12,
+        "outputs": 220,
+        "roles": 3652
+      },
+      "step": 2
+    }
+  ],
+  "source_sha256": {
+    "docs/research/mixed-point-audit.md": "c80527f9e98c27bd7f5858a06c7273f84c40e0c41505eb4d16029b61f80fb968",
+    "scripts/experiments/mixed_point_circuit.py": "f509362b5031976a22af351fd158ae0b4520fa4f286a5176ec37023d672a7ddc",
+    "scripts/rational_span_frames.py": "766d342dd73ca5efd784c5733282a93d379a58beea763e703238dfbb4eacce82"
+  },
+  "status": "BOUNDED MIXED-POINT RESEARCH; NO NEW KAPPA",
+  "target": "1/1073741824",
+  "upstream_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a"
+}

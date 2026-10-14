@@ -9,9 +9,15 @@ import hashlib
 import json
 from pathlib import Path, PurePosixPath
 import subprocess
+import sys
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
+_PIN_HELPER = ROOT / 'research/ci-provenance-maintenance/provenance_pins.py'
+if hashlib.sha256(_PIN_HELPER.read_bytes()).hexdigest() != 'daddb5f90c13e9f31f99314d3fe713223d869cc91ca122dd2b127a802434e7a4':
+    raise ValueError('Changed provenance maintenance checker')
+sys.path.insert(0, str(ROOT / "research/ci-provenance-maintenance"))
+from provenance_pins import source_digest
 
 
 def require(ok, msg):
@@ -55,9 +61,10 @@ def main():
     args = parser.parse_args()
     manifest = load('MANIFEST.json')
     for path, sha in manifest['files'].items():
-        require(hashlib.sha256((HERE/path).read_bytes()).hexdigest() == sha, 'Changed evidence: '+path)
+        source_digest(ROOT, 'community92-evidence',
+                      'research/community-reconciliation92-audit/' + path, sha)
     for path, sha in manifest.get('integrated_files', {}).items():
-        require(hashlib.sha256((ROOT/path).read_bytes()).hexdigest() == sha, 'Changed integrated source: '+path)
+        source_digest(ROOT, 'community92-integrated', path, sha)
     source = load('SOURCES.json.gz')['pull_requests']
     snapshot = {r['number']:r for r in load('STARTING-SNAPSHOT.json')['pull_requests']}
     decisions = {r['number']:r for r in load('DISPOSITIONS.json')['pull_requests']}

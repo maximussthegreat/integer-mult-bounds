@@ -14,6 +14,11 @@ import argparse,importlib.util,json,sys
 HERE=Path(__file__).resolve().parent;ROOT=HERE.parents[1];PARENT=ROOT/'research/skip-strips'
 sys.path[:0]=[str(HERE),str(PARENT),str(ROOT/'scripts')]
 from graph import graph
+_PIN_HELPER = ROOT / 'research/ci-provenance-maintenance/provenance_pins.py'
+if sha256(_PIN_HELPER.read_bytes()).hexdigest() != 'daddb5f90c13e9f31f99314d3fe713223d869cc91ca122dd2b127a802434e7a4':
+    raise ValueError('Changed provenance maintenance checker')
+sys.path.insert(0, str(ROOT / "research/ci-provenance-maintenance"))
+from provenance_pins import source_digest
 spec=importlib.util.spec_from_file_location('split_skip_base',PARENT/'verify.py')
 base=importlib.util.module_from_spec(spec);spec.loader.exec_module(base)
 read,require,moment,js=base.read,base.require,base.moment,base.js
@@ -93,7 +98,7 @@ def run():
     required=[p for p in HERE.rglob('*') if p.is_file() and p.suffix in ('.py','.cpp','.uses','.json','.md') and p.name not in ('SOURCE.json','certificate.json','producer-receipt.json','validation.json')]
     require(all(str(p.relative_to(ROOT)) in pins for p in required),'Missing input source pin')
     for name,digest in pins.items():
-        require(sha256((ROOT/name).read_bytes()).hexdigest()==digest,'Source pin: '+name)
+        source_digest(ROOT, 'split-skip-sources', name, digest)
     for h in (23,25):
         require(graph(h).verify()==read(HERE/f'scalar-{h}.json'),'Scalar graph replay mismatch')
         r=read(HERE/f'original-{h}.json');t=read(HERE/f'timeline-{h}.json')

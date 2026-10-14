@@ -555,14 +555,14 @@
     "j": "0 through k-1",
     "k": "2 through min(4, floor(h/2))"
   },
-  "implementation_sha256": "004774eb8df41f467e8495ea4d877388f5addd6d38c76aee2c3795e596f91046",
+  "implementation_sha256": "d1d1fd8d55640a4319c176089f5511dddc56362fa82898fd779fb55193e9c981",
   "maximum_order": 210,
   "scope": "Finite audit of modular characteristic polynomials and the associated binary rank lower bound. No all-size theorem, supplier construction, or new kappa.",
   "source_sha256": {
     "certificates/selected-result.json": "b3bf402f31a69bde0629936a9b569bed48281568d7b16d5fba120b5311ea1f53",
     "docs/research/single-intersection.md": "c3a9be97b38f4ac1e7983842d9f23656671e877ad5144f41894818f4551aa4dd",
     "scripts/audit_single_intersection.py": "1de7f9a62edc93c624ff2693ae9bb725cf6dc9735ff1caad56f6913aae9448ee",
-    "scripts/experiments/single_intersection.py": "08ddae46e5621a5b4c525b504e67ae655abe9b49461d894feaa7abc89a51847d",
+    "scripts/experiments/single_intersection.py": "6874d41b75590369182ed61e0c6da5b547e035e0e43b50ea2b39e1f3861dca6d",
     "tests/test_single_intersection.py": "333f14dee70ddffaf266a8041d0ee3a0bf64794e28c1f05cc8a6e8953a37543e"
   },
   "status": "PASS_LITERAL_BINARY_SPECTRAL_AUDIT",

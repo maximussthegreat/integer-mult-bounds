@@ -1,0 +1,911 @@
+{
+  "ambient_dimension": 36,
+  "block_overlap_controls": [
+    {
+      "column_label_span": 1,
+      "column_space": 6,
+      "h": 6,
+      "intersection": 1,
+      "row_label_span": 1,
+      "row_space": 6
+    },
+    {
+      "column_label_span": 2,
+      "column_space": 12,
+      "h": 6,
+      "intersection": 4,
+      "row_label_span": 2,
+      "row_space": 12
+    },
+    {
+      "column_label_span": 3,
+      "column_space": 18,
+      "h": 6,
+      "intersection": 9,
+      "row_label_span": 3,
+      "row_space": 18
+    },
+    {
+      "column_label_span": 5,
+      "column_space": 30,
+      "h": 6,
+      "intersection": 25,
+      "row_label_span": 5,
+      "row_space": 30
+    }
+  ],
+  "boundary_only_saving_excluded": true,
+  "candidates": [
+    {
+      "affected_edges": 52,
+      "change_seam": false,
+      "direction": "crossing_line",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "first_A",
+      "rank_change_lower_bound": 10
+    },
+    {
+      "affected_edges": 74,
+      "change_seam": true,
+      "direction": "crossing_line",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "first_A",
+      "rank_change_lower_bound": 18
+    },
+    {
+      "affected_edges": 52,
+      "change_seam": false,
+      "direction": "crossing_line",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "first_C",
+      "rank_change_lower_bound": 10
+    },
+    {
+      "affected_edges": 73,
+      "change_seam": true,
+      "direction": "crossing_line",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "first_C",
+      "rank_change_lower_bound": 16
+    },
+    {
+      "affected_edges": 52,
+      "change_seam": false,
+      "direction": "crossing_line",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "second_A",
+      "rank_change_lower_bound": 10
+    },
+    {
+      "affected_edges": 73,
+      "change_seam": true,
+      "direction": "crossing_line",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "second_A",
+      "rank_change_lower_bound": 16
+    },
+    {
+      "affected_edges": 52,
+      "change_seam": false,
+      "direction": "crossing_line",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "second_C",
+      "rank_change_lower_bound": 10
+    },
+    {
+      "affected_edges": 74,
+      "change_seam": true,
+      "direction": "crossing_line",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "second_C",
+      "rank_change_lower_bound": 18
+    },
+    {
+      "affected_edges": 104,
+      "change_seam": false,
+      "direction": "crossing_line",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "A1_C2",
+      "rank_change_lower_bound": 20
+    },
+    {
+      "affected_edges": 126,
+      "change_seam": true,
+      "direction": "crossing_line",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "A1_C2",
+      "rank_change_lower_bound": 28
+    },
+    {
+      "affected_edges": 104,
+      "change_seam": false,
+      "direction": "crossing_line",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "C1_A2",
+      "rank_change_lower_bound": 20
+    },
+    {
+      "affected_edges": 124,
+      "change_seam": true,
+      "direction": "crossing_line",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "C1_A2",
+      "rank_change_lower_bound": 24
+    },
+    {
+      "affected_edges": 196,
+      "change_seam": false,
+      "direction": "crossing_line",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "all_four",
+      "rank_change_lower_bound": 64
+    },
+    {
+      "affected_edges": 216,
+      "change_seam": true,
+      "direction": "crossing_line",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "all_four",
+      "rank_change_lower_bound": 68
+    },
+    {
+      "affected_edges": 196,
+      "change_seam": false,
+      "direction": "crossing_line",
+      "improvement_excluded": false,
+      "method": "exact rational ranks",
+      "pattern": "collapse_returns",
+      "rank_change": -24
+    },
+    {
+      "affected_edges": 216,
+      "change_seam": true,
+      "direction": "crossing_line",
+      "improvement_excluded": false,
+      "method": "exact rational ranks",
+      "pattern": "collapse_returns",
+      "rank_change": -16
+    },
+    {
+      "affected_edges": 52,
+      "change_seam": false,
+      "direction": "row_active",
+      "improvement_excluded": false,
+      "method": "exact rational ranks",
+      "pattern": "first_A",
+      "rank_change": -32
+    },
+    {
+      "affected_edges": 74,
+      "change_seam": true,
+      "direction": "row_active",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "first_A",
+      "rank_change_lower_bound": 60
+    },
+    {
+      "affected_edges": 52,
+      "change_seam": false,
+      "direction": "row_active",
+      "improvement_excluded": false,
+      "method": "exact rational ranks",
+      "pattern": "first_C",
+      "rank_change": -32
+    },
+    {
+      "affected_edges": 73,
+      "change_seam": true,
+      "direction": "row_active",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "first_C",
+      "rank_change_lower_bound": 63
+    },
+    {
+      "affected_edges": 52,
+      "change_seam": false,
+      "direction": "row_active",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "second_A",
+      "rank_change_lower_bound": 270
+    },
+    {
+      "affected_edges": 73,
+      "change_seam": true,
+      "direction": "row_active",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "second_A",
+      "rank_change_lower_bound": 350
+    },
+    {
+      "affected_edges": 52,
+      "change_seam": false,
+      "direction": "row_active",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "second_C",
+      "rank_change_lower_bound": 270
+    },
+    {
+      "affected_edges": 74,
+      "change_seam": true,
+      "direction": "row_active",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "second_C",
+      "rank_change_lower_bound": 362
+    },
+    {
+      "affected_edges": 104,
+      "change_seam": false,
+      "direction": "row_active",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "A1_C2",
+      "rank_change_lower_bound": 238
+    },
+    {
+      "affected_edges": 126,
+      "change_seam": true,
+      "direction": "row_active",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "A1_C2",
+      "rank_change_lower_bound": 330
+    },
+    {
+      "affected_edges": 104,
+      "change_seam": false,
+      "direction": "row_active",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "C1_A2",
+      "rank_change_lower_bound": 238
+    },
+    {
+      "affected_edges": 124,
+      "change_seam": true,
+      "direction": "row_active",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "C1_A2",
+      "rank_change_lower_bound": 321
+    },
+    {
+      "affected_edges": 196,
+      "change_seam": false,
+      "direction": "row_active",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "all_four",
+      "rank_change_lower_bound": 530
+    },
+    {
+      "affected_edges": 216,
+      "change_seam": true,
+      "direction": "row_active",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "all_four",
+      "rank_change_lower_bound": 613
+    },
+    {
+      "affected_edges": 196,
+      "change_seam": false,
+      "direction": "row_active",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "collapse_returns",
+      "rank_change_lower_bound": 416
+    },
+    {
+      "affected_edges": 216,
+      "change_seam": true,
+      "direction": "row_active",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "collapse_returns",
+      "rank_change_lower_bound": 503
+    },
+    {
+      "affected_edges": 52,
+      "change_seam": false,
+      "direction": "column_active",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "first_A",
+      "rank_change_lower_bound": 270
+    },
+    {
+      "affected_edges": 74,
+      "change_seam": true,
+      "direction": "column_active",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "first_A",
+      "rank_change_lower_bound": 367
+    },
+    {
+      "affected_edges": 52,
+      "change_seam": false,
+      "direction": "column_active",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "first_C",
+      "rank_change_lower_bound": 270
+    },
+    {
+      "affected_edges": 73,
+      "change_seam": true,
+      "direction": "column_active",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "first_C",
+      "rank_change_lower_bound": 355
+    },
+    {
+      "affected_edges": 52,
+      "change_seam": false,
+      "direction": "column_active",
+      "improvement_excluded": false,
+      "method": "exact rational ranks",
+      "pattern": "second_A",
+      "rank_change": -32
+    },
+    {
+      "affected_edges": 73,
+      "change_seam": true,
+      "direction": "column_active",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "second_A",
+      "rank_change_lower_bound": 68
+    },
+    {
+      "affected_edges": 52,
+      "change_seam": false,
+      "direction": "column_active",
+      "improvement_excluded": false,
+      "method": "exact rational ranks",
+      "pattern": "second_C",
+      "rank_change": -32
+    },
+    {
+      "affected_edges": 74,
+      "change_seam": true,
+      "direction": "column_active",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "second_C",
+      "rank_change_lower_bound": 65
+    },
+    {
+      "affected_edges": 104,
+      "change_seam": false,
+      "direction": "column_active",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "A1_C2",
+      "rank_change_lower_bound": 238
+    },
+    {
+      "affected_edges": 126,
+      "change_seam": true,
+      "direction": "column_active",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "A1_C2",
+      "rank_change_lower_bound": 335
+    },
+    {
+      "affected_edges": 104,
+      "change_seam": false,
+      "direction": "column_active",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "C1_A2",
+      "rank_change_lower_bound": 238
+    },
+    {
+      "affected_edges": 124,
+      "change_seam": true,
+      "direction": "column_active",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "C1_A2",
+      "rank_change_lower_bound": 326
+    },
+    {
+      "affected_edges": 196,
+      "change_seam": false,
+      "direction": "column_active",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "all_four",
+      "rank_change_lower_bound": 530
+    },
+    {
+      "affected_edges": 216,
+      "change_seam": true,
+      "direction": "column_active",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "all_four",
+      "rank_change_lower_bound": 618
+    },
+    {
+      "affected_edges": 196,
+      "change_seam": false,
+      "direction": "column_active",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "collapse_returns",
+      "rank_change_lower_bound": 416
+    },
+    {
+      "affected_edges": 216,
+      "change_seam": true,
+      "direction": "column_active",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "collapse_returns",
+      "rank_change_lower_bound": 508
+    },
+    {
+      "affected_edges": 52,
+      "change_seam": false,
+      "direction": "controlled_conjugate",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "first_A",
+      "rank_change_lower_bound": 278
+    },
+    {
+      "affected_edges": 74,
+      "change_seam": true,
+      "direction": "controlled_conjugate",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "first_A",
+      "rank_change_lower_bound": 395
+    },
+    {
+      "affected_edges": 52,
+      "change_seam": false,
+      "direction": "controlled_conjugate",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "first_C",
+      "rank_change_lower_bound": 278
+    },
+    {
+      "affected_edges": 73,
+      "change_seam": true,
+      "direction": "controlled_conjugate",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "first_C",
+      "rank_change_lower_bound": 383
+    },
+    {
+      "affected_edges": 52,
+      "change_seam": false,
+      "direction": "controlled_conjugate",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "second_A",
+      "rank_change_lower_bound": 312
+    },
+    {
+      "affected_edges": 73,
+      "change_seam": true,
+      "direction": "controlled_conjugate",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "second_A",
+      "rank_change_lower_bound": 417
+    },
+    {
+      "affected_edges": 52,
+      "change_seam": false,
+      "direction": "controlled_conjugate",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "second_C",
+      "rank_change_lower_bound": 312
+    },
+    {
+      "affected_edges": 74,
+      "change_seam": true,
+      "direction": "controlled_conjugate",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "second_C",
+      "rank_change_lower_bound": 429
+    },
+    {
+      "affected_edges": 104,
+      "change_seam": false,
+      "direction": "controlled_conjugate",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "A1_C2",
+      "rank_change_lower_bound": 590
+    },
+    {
+      "affected_edges": 126,
+      "change_seam": true,
+      "direction": "controlled_conjugate",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "A1_C2",
+      "rank_change_lower_bound": 707
+    },
+    {
+      "affected_edges": 104,
+      "change_seam": false,
+      "direction": "controlled_conjugate",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "C1_A2",
+      "rank_change_lower_bound": 590
+    },
+    {
+      "affected_edges": 124,
+      "change_seam": true,
+      "direction": "controlled_conjugate",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "C1_A2",
+      "rank_change_lower_bound": 683
+    },
+    {
+      "affected_edges": 196,
+      "change_seam": false,
+      "direction": "controlled_conjugate",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "all_four",
+      "rank_change_lower_bound": 1126
+    },
+    {
+      "affected_edges": 216,
+      "change_seam": true,
+      "direction": "controlled_conjugate",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "all_four",
+      "rank_change_lower_bound": 1219
+    },
+    {
+      "affected_edges": 196,
+      "change_seam": false,
+      "direction": "controlled_conjugate",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "collapse_returns",
+      "rank_change_lower_bound": 978
+    },
+    {
+      "affected_edges": 216,
+      "change_seam": true,
+      "direction": "controlled_conjugate",
+      "improvement_excluded": true,
+      "method": "mod-101 lower bound on rational ranks",
+      "pattern": "collapse_returns",
+      "rank_change_lower_bound": 1083
+    }
+  ],
+  "directions": {
+    "column_active": {
+      "kronecker_reshuffle_rank": 1,
+      "rank": 6
+    },
+    "controlled_conjugate": {
+      "kronecker_reshuffle_rank": 6,
+      "rank": 6
+    },
+    "crossing_line": {
+      "kronecker_reshuffle_rank": 1,
+      "rank": 1
+    },
+    "row_active": {
+      "kronecker_reshuffle_rank": 1,
+      "rank": 6
+    }
+  },
+  "edges": 4082,
+  "h": 6,
+  "improved_candidates": [
+    {
+      "affected_edges": 196,
+      "change_seam": false,
+      "direction": "crossing_line",
+      "improvement_excluded": false,
+      "method": "exact rational ranks",
+      "pattern": "collapse_returns",
+      "rank_change": -24
+    },
+    {
+      "affected_edges": 216,
+      "change_seam": true,
+      "direction": "crossing_line",
+      "improvement_excluded": false,
+      "method": "exact rational ranks",
+      "pattern": "collapse_returns",
+      "rank_change": -16
+    },
+    {
+      "affected_edges": 52,
+      "change_seam": false,
+      "direction": "row_active",
+      "improvement_excluded": false,
+      "method": "exact rational ranks",
+      "pattern": "first_A",
+      "rank_change": -32
+    },
+    {
+      "affected_edges": 52,
+      "change_seam": false,
+      "direction": "row_active",
+      "improvement_excluded": false,
+      "method": "exact rational ranks",
+      "pattern": "first_C",
+      "rank_change": -32
+    },
+    {
+      "affected_edges": 52,
+      "change_seam": false,
+      "direction": "column_active",
+      "improvement_excluded": false,
+      "method": "exact rational ranks",
+      "pattern": "second_A",
+      "rank_change": -32
+    },
+    {
+      "affected_edges": 52,
+      "change_seam": false,
+      "direction": "column_active",
+      "improvement_excluded": false,
+      "method": "exact rational ranks",
+      "pattern": "second_C",
+      "rank_change": -32
+    }
+  ],
+  "positive_excess_edges": [
+    {
+      "excess": 12,
+      "head": [
+        0,
+        6,
+        "central"
+      ],
+      "role": 204,
+      "tail": [
+        0,
+        5,
+        "central"
+      ]
+    },
+    {
+      "excess": 12,
+      "head": [
+        0,
+        6,
+        "central"
+      ],
+      "role": 205,
+      "tail": [
+        0,
+        5,
+        "central"
+      ]
+    },
+    {
+      "excess": 12,
+      "head": [
+        0,
+        6,
+        "central"
+      ],
+      "role": 206,
+      "tail": [
+        0,
+        5,
+        "central"
+      ]
+    },
+    {
+      "excess": 12,
+      "head": [
+        0,
+        6,
+        "central"
+      ],
+      "role": 207,
+      "tail": [
+        0,
+        5,
+        "central"
+      ]
+    },
+    {
+      "excess": 12,
+      "head": [
+        0,
+        6,
+        "central"
+      ],
+      "role": 208,
+      "tail": [
+        0,
+        5,
+        "central"
+      ]
+    },
+    {
+      "excess": 12,
+      "head": [
+        0,
+        6,
+        "central"
+      ],
+      "role": 209,
+      "tail": [
+        0,
+        5,
+        "central"
+      ]
+    },
+    {
+      "excess": 12,
+      "head": [
+        1,
+        5,
+        "central"
+      ],
+      "role": 412,
+      "tail": [
+        1,
+        6,
+        "central"
+      ]
+    },
+    {
+      "excess": 12,
+      "head": [
+        1,
+        5,
+        "central"
+      ],
+      "role": 413,
+      "tail": [
+        1,
+        6,
+        "central"
+      ]
+    },
+    {
+      "excess": 12,
+      "head": [
+        1,
+        5,
+        "central"
+      ],
+      "role": 414,
+      "tail": [
+        1,
+        6,
+        "central"
+      ]
+    },
+    {
+      "excess": 12,
+      "head": [
+        1,
+        5,
+        "central"
+      ],
+      "role": 415,
+      "tail": [
+        1,
+        6,
+        "central"
+      ]
+    },
+    {
+      "excess": 12,
+      "head": [
+        1,
+        5,
+        "central"
+      ],
+      "role": 416,
+      "tail": [
+        1,
+        6,
+        "central"
+      ]
+    },
+    {
+      "excess": 12,
+      "head": [
+        1,
+        5,
+        "central"
+      ],
+      "role": 417,
+      "tail": [
+        1,
+        6,
+        "central"
+      ]
+    }
+  ],
+  "rank_sum": 8684,
+  "scalar": {
+    "all_auxiliary_inputs_restored": true,
+    "forward_and_inverse_exact": true,
+    "independent_variables": 418,
+    "two_shared_data_roles": true
+  },
+  "scope": "Fixed scalar pair and outer cuts; 64 explicit correlated frame assignments at h=6, including nonproduct rank-h changes. Six tiny-size improvements are excluded in the retained positive-deficit range by the written scaling audit. No all-matrix optimum, general fusion obstruction, positive-deficit network or improved multiplication witness is claimed.",
+  "shared_component_dimension": 1,
+  "signed_rank_sum": 8540,
+  "small_winner_scaling": [
+    {
+      "crossing_collapse_pair": -24,
+      "crossing_collapse_with_seam_lower_bound": -48,
+      "erase_one_return": -32,
+      "h": 6
+    },
+    {
+      "crossing_collapse_pair": 68,
+      "crossing_collapse_with_seam_lower_bound": 44,
+      "erase_one_return": -16,
+      "h": 8
+    },
+    {
+      "crossing_collapse_pair": 304,
+      "crossing_collapse_with_seam_lower_bound": 280,
+      "erase_one_return": 40,
+      "h": 10
+    },
+    {
+      "crossing_collapse_pair": 64644,
+      "crossing_collapse_with_seam_lower_bound": 64620,
+      "erase_one_return": 16560,
+      "h": 40
+    },
+    {
+      "crossing_collapse_pair": 133824,
+      "crossing_collapse_with_seam_lower_bound": 133800,
+      "erase_one_return": 34200,
+      "h": 50
+    }
+  ],
+  "source_sha256": {
+    "docs/research/stage-pair-audit.md": "af302999ac2342016bc6d0c5b5e33824cd9eafbb260322a2a6700b309069db9f",
+    "scripts/audit_stage_pair.py": "f4823525abb553f76ea33adf61ed51e88ec38dd6c346dbcac86f69ffa8fb0375"
+  },
+  "status": "BOUNDED TWO-INVOCATION FRAME SEARCH; NO NEW KAPPA",
+  "upstream_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "vertices": 1996
+}

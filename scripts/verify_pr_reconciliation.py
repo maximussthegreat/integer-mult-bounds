@@ -8,9 +8,15 @@ import hashlib
 import tempfile
 import json
 import zipfile
+import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 AUDIT = ROOT / 'research/pr-reconciliation-20261012'
+_PIN_HELPER = ROOT / 'research/ci-provenance-maintenance/provenance_pins.py'
+if hashlib.sha256(_PIN_HELPER.read_bytes()).hexdigest() != 'daddb5f90c13e9f31f99314d3fe713223d869cc91ca122dd2b127a802434e7a4':
+    raise ValueError('Changed provenance maintenance checker')
+sys.path.insert(0, str(ROOT / 'research/ci-provenance-maintenance'))
+from provenance_pins import source_digest
 
 
 def require(condition, message):
@@ -411,8 +417,8 @@ def main():
                 if item['action'] == 'pending':
                     require(not decision['review_completion']['changed_file_coverage'], 'Incomplete review')
                 if item.get('integrated_sha256'):
-                    require(hashlib.sha256((ROOT / item['integrated_path']).read_bytes()).hexdigest()
-                            == item['integrated_sha256'], 'Changed integrated file: ' + item['integrated_path'])
+                    source_digest(ROOT, 'frontier890-integrated', item['integrated_path'],
+                                  item['integrated_sha256'])
                 if item['action'] != 'retained':
                     require(bool(item.get('reason')), 'Missing scope or adaptation reason')
         print('PASS frontier890 batch: reviewed sources, finite replays, scoped claims and closure bindings')

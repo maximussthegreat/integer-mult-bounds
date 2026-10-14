@@ -19,6 +19,11 @@ import tempfile
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
+_PIN_HELPER = ROOT / 'research/ci-provenance-maintenance/provenance_pins.py'
+if hashlib.sha256(_PIN_HELPER.read_bytes()).hexdigest() != 'daddb5f90c13e9f31f99314d3fe713223d869cc91ca122dd2b127a802434e7a4':
+    raise ValueError('Changed provenance maintenance checker')
+sys.path.insert(0, str(ROOT / "research/ci-provenance-maintenance"))
+from provenance_pins import source_digest
 WORD = 'research/e8-bit-r420/data/bitE8mut-r420.json.gz'
 CHECK = 'research/e8-bit-r420/code/xcheck.py'
 EXPORT = 'research/e8-bit-carrier-skeleton/code/bit/export_records.py'
@@ -50,6 +55,10 @@ def need(condition, reason):
 
 def read_sources():
     for path, pin in json.loads((HERE / 'SOURCES.json').read_text())['files'].items():
+        if path == 'certificates/selected-result.json':
+            # Historical context at the declared base, not a live supplier input.
+            source_digest(ROOT, 'r420-sources', path, pin['sha256'])
+            continue
         data = (ROOT / path).read_bytes()
         if pin['representation'] == 'gzip-payload':
             data = gzip.decompress(data)
