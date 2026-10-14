@@ -19,6 +19,12 @@ https://github.com/CrocSwap/integer-mult-bounds/pull/1673
 
 Source manifests in each section record exact source paths and hashes. No upstream program was imported or executed. The package is based on main `0b1cccf86e2f5132ed286a26ef0a681a495740ea`; it does not alter the selected result or frozen predecessor sources. All new code uses Python's standard library. New contributions follow the repository's Apache-2.0 license.
 
+## Overlap checked before publication
+
+A targeted PR check on 14 October 2026 found no existing PR for this package or branch. Later work in [PR #1721](https://github.com/CrocSwap/integer-mult-bounds/pull/1721), [#1725](https://github.com/CrocSwap/integer-mult-bounds/pull/1725), [#1731](https://github.com/CrocSwap/integer-mult-bounds/pull/1731), [#1754](https://github.com/CrocSwap/integer-mult-bounds/pull/1754), [#1758](https://github.com/CrocSwap/integer-mult-bounds/pull/1758), and [#1800](https://github.com/CrocSwap/integer-mult-bounds/pull/1800) develops a faster flag-incidence/radix union schedule, credited to Jeremy Kothe and contributors, with an independent simulation by LeverRank. This package audits the pinned PR #1673 per-axis baseline; it neither claims the later improvement nor independently validates those later schedules.
+
+The added evidence is explicit sequential payload reads/writes/rewinds, exhaustive small-support and basis replay, adversarial layout controls, and separate RHS/prefix interface arguments. The overlap check was targeted, not a complete Discussion census or a novelty certificate.
+
 ## Reproduce
 
 Python 3.10+; tested with Python 3.12. Run from any directory:
@@ -35,8 +41,8 @@ Scratch tapes are ordinary overwriteable work storage. Real input and spectator 
 
 1. Can the actual bounded-precision local arithmetic compiler be implemented on fixed tapes with the stated coefficient/page schedule? Start from rhs/AUDIT.md and replace its host-array arithmetic oracle with a charged implementation. This matters because only the layout is currently simulated literally; full precision/error propagation remains a blocker.
 2. For any proposed fixed broad rounded table, does its concrete row-error certificate satisfy the prefix addendum's uniform threshold? First identify the truncation/periodization convention and actual rounding constants. This is useful for the optional stronger inverse interface; the published broad forward-only schedule does not require broad Schur inversion.
-3. Does later pending work already supply the same scoped replay? Refresh PR and Discussion overlap before publication. The initial limited search found no explicit equivalent, but incomplete search coverage does not establish novelty.
+3. Can the later flag-incidence/radix schedule receive the same literal sequential-access and rewind checks? Start from its variable-length transpose and stored-bit/LIFO restoration. This would test its different movement bound; the present per-axis replay does not establish that result.
 
 ## Publication status
 
-Prepared and checked for a local commit. No upstream publication is asserted. GitHub integration posting returned HTTP 403 during this session; no denied write was retried through another route.
+Published on the contributor branch `maximussthegreat:research/sparse-union-streaming-audit`. Upstream review and integration are separate from this publication; no upstream merge is asserted. The initial upstream comment attempt returned HTTP 403, and no denied write was retried through another route.

@@ -2,8 +2,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 4390,
-      "sha256": "491b7fb2a52c25c4b97135c8ecff648d05aaeef3626315dc77c9d53321cdb7a6"
+      "bytes": 5682,
+      "sha256": "56f9944998c46aa4f581c5842ef9e97f9d83d5713bc9991eb639d0a0277c0469"
     },
     {
       "path": "REPLAY-RECEIPT.json",
@@ -143,17 +143,17 @@
     {
       "path": "prefix/FINAL_HASHES.json",
       "bytes": 665,
-      "sha256": "6020d4f2ffe282a153fba9f0799ca8a8ff140b892bb9d4d36e6de79df2d592d9"
+      "sha256": "9693d582cf540f19e7323770acb2343b96ff54496732819ab23fee06b90e4d1c"
     },
     {
       "path": "prefix/PROVENANCE-AMENDMENT.json",
-      "bytes": 540,
-      "sha256": "39e11a301a41ed1167754be8d8e061821bde42c2a1dc74885f9f4db9baebe6bd"
+      "bytes": 1476,
+      "sha256": "dcf97054fcc51fccbcdd68a882861c88fd15c700529fb2538ac58e35e0745e32"
     },
     {
       "path": "prefix/RELATION_TO_PRIOR_AUDIT.md",
-      "bytes": 2382,
-      "sha256": "740630972205008021759eba8216e52585e8883fc4f954ae05ff53cef680f126"
+      "bytes": 2355,
+      "sha256": "7a95de26d0fda35875dbf9202a162c8f7f9390fc249ae6c5b720c44aac9329b2"
     },
     {
       "path": "prefix/RESULTS.json",
@@ -226,5 +226,5 @@
       "sha256": "e8a6205aa52feb4e488f6be7fff69d6721431a38b4acc3cc3b096274c243f20b"
     }
   ],
-  "packaging_note": "Only committed files are listed. Transient logs excluded by repository .gitignore are omitted; proof, code and result bytes are unchanged."
+  "packaging_note": "Only committed files are listed. Transient logs excluded by repository .gitignore are omitted. Publication cleanup refreshes README overlap/status and a repository-relative link, with a transparent prefix provenance amendment; mathematical arguments, executable code, result receipts and historical review hashes are unchanged."
 }

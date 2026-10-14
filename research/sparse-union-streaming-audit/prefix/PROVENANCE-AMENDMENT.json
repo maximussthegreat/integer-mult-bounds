@@ -3,5 +3,16 @@
   "reviewed_audit_sha256": "fd2ac03560b94b8132e51b28d4f0549db483122d47951f384fb56383f0a75c85",
   "final_audit_sha256": "ddd06027a35798d8ffa3c26e3f95121cd473f06588245b681bb67781f2f6ed00",
   "mathematical_text_changed": false,
-  "verification": "Unified diff inspected; only the opening provenance paragraph differs. Original independent-review hashes remain historical rather than silently rewritten."
+  "verification": "Unified diff inspected; only the opening provenance paragraph differs. Original independent-review hashes remain historical rather than silently rewritten.",
+  "publication_packaging_amendment": {
+    "date_utc": "2026-10-14",
+    "change": "Replace the obsolete absolute workspace reference in RELATION_TO_PRIOR_AUDIT.md with the repository-relative rhs/AUDIT.md link. Update FINAL_HASHES.json for the published document.",
+    "prior_relation_sha256": "740630972205008021759eba8216e52585e8883fc4f954ae05ff53cef680f126",
+    "published_relation_sha256": "7a95de26d0fda35875dbf9202a162c8f7f9390fc249ae6c5b720c44aac9329b2",
+    "prior_final_hashes_sha256": "6020d4f2ffe282a153fba9f0799ca8a8ff140b892bb9d4d36e6de79df2d592d9",
+    "published_final_hashes_sha256": "9693d582cf540f19e7323770acb2343b96ff54496732819ab23fee06b90e4d1c",
+    "mathematical_text_changed": false,
+    "historical_review_hashes_preserved": true,
+    "verification": "Only the opening link differs in the relation note. review/REVIEWED_HASHES.json is unchanged and continues to identify the originally reviewed bytes."
+  }
 }

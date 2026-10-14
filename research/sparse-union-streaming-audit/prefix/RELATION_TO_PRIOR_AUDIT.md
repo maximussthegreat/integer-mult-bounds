@@ -1,6 +1,6 @@
 # Relation to the earlier boundary-RHS audit
 
-The earlier report is `/workspace/shared/sparse_rhs_interface_20261014/AUDIT.md`.
+The earlier report is [rhs/AUDIT.md](../rhs/AUDIT.md).
 Its page/stream and block-algebra result remains valid as a conditional
 symmetric interface supporting either S or S^-1. The present audit does not
 invalidate its batching counts or finite controls.
