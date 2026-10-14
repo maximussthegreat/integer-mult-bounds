@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "fork_base_commit": "3b6b66891c0ac888521cf591fe306c6286601d4f",
+  "mathematical_source_base": "0b1cccf86e2f5132ed286a26ef0a681a495740ea",
+  "predecessor_adapter_head": "23bae0f8d16246862524581b742c7a922514bfd5",
+  "sources": [
+    {
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/23bae0f8d16246862524581b742c7a922514bfd5/research/selected-p104-port-adapter/CERTIFICATE.json",
+      "usage": "Original F, F1, term pairs, and original puncture"
+    },
+    {
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/23bae0f8d16246862524581b742c7a922514bfd5/research/selected-p104-port-adapter/NOTICE.md",
+      "usage": "Predecessor attribution"
+    },
+    {
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/0b1cccf86e2f5132ed286a26ef0a681a495740ea/research/complex-frame-pair-decoders/verify.py",
+      "sha256": "bdf7ee497dc04dfc634ee5b7848f6a2b39b0169668fb1a60a9715111dbd15395",
+      "usage": "Definitions read as text, never executed by this package"
+    },
+    {
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/0b1cccf86e2f5132ed286a26ef0a681a495740ea/research/complex-block-rank-optimum/inputs/selected.json.gz",
+      "git_blob": "5f9ef680983b0b63a4c82a4ed909837b78e690cd",
+      "compressed_sha256": "16bc0ebb04b4be6c0ade74badc6a0c0cdba4215eda86e4ff9f13abf8ecebd219",
+      "decompressed_sha256": "4ddb29fb9bc6f27e0c0fbfcf19a2a93a3496ad900d0f6d89059d0305c9576c0c",
+      "local_base64_copy": "independent/inputs/selected_payload.b64",
+      "local_copy_sha256": "aeca04925a2f6da298c6621b744a1e1b8dccdaae18575eaaa8635d80193b57d4",
+      "usage": "Public input data; decompressed and parsed only"
+    }
+  ],
+  "attribution": {
+    "E8_model": "DreamingOfClouds, PR717",
+    "frame_pair_decoder": "themilkman216, PR968",
+    "original_selected_adapter": "1337isnot1337, PR1746",
+    "new_package": "Prepared with substantial OpenAI assistance"
+  },
+  "license": "Apache-2.0"
+}

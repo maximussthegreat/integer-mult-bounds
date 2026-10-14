@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [
+    "research/p104-pairing-compatible-adapter/independent/inputs/selected_payload.b64"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify_adapter.py"
+      ],
+      "timeout_seconds": 30,
+      "checks": "512 translation candidates, selected112 set equality, all14400 pairings, all8 actual ranks7; no full supplier claim"
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/independent/check_adapter.py"
+      ],
+      "timeout_seconds": 30,
+      "checks": "Input hashes, all112 source and target frames, global bilinear isometry, all8 explicit rank witnesses, all10816 transported real decoder entries; original full real target unverified"
+    }
+  ]
+}
