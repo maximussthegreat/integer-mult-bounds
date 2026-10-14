@@ -80,6 +80,8 @@ The verifier checks entrywise equality of the abstract and corrected actual supp
 
 ## Exact scope
 
+**This certificate does not justify simply replacing the current centre gates.** The original cut seam and downstream suffix impose additional coordinate and phase obligations.
+
 This closes the pairing-compatible port-adapter screen. It does **not** establish a legal full P104 supplier, a realizable phase schedule, parity correction, restoration, hosting, or an end-to-end cost. The value 56 is the sum of these eight actual support-pair ranks, not a completed physical cost calculation and not a lower bound for arbitrary mixed-term programs.
 
 In particular H is an algebraic label assignment. The certificate does not claim that H can be physically executed for free. Any implementation may use the corrected assignment directly, but it must still demonstrate all needed source/target interfaces and paid operations. The independent review verifies the transported real decoder identity `D T^T = 2G` on all 10,816 entries. Equality of that transported target to the selected word's required full real transformation remains unverified. Phase correctness, including centre construction/reads and parity correction, restoration, hosting, and complete cost must still be established.
@@ -116,3 +118,4 @@ Pinned public sources inherited from the preceding audit:
 The separately authored [review](independent/README.md) checks the actual payload hashes, all 112 source and 112 target boundary frames, all 14,400 pairing entries, and eight rank-seven certificates with invertible minors and row-span witnesses. It additionally checks the global identity `F_corrected F_corrected^T = J`, where J is the E8 form in phi coordinates, and all 10,816 transported real-decoder entries. H itself is not standard-dot orthogonal; the corrected assignment uses existing physical ports directly and does not require claiming that H was physically executed.
 
 Prepared with OpenAI assistance. This is independently authored computational review, not independent human review or full supplier admission. Apache-2.0.
+
