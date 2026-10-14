@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "independent_nonintegral_q_cases": 442,
+  "rho": "5/4",
+  "b": "16 log(257/256)",
+  "scope": "Exact finite identities and exponent envelopes; not an all-size or fixed-table certificate."
+}

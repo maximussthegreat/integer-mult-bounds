@@ -1,0 +1,49 @@
+{
+  "repository": "CrocSwap/integer-mult-bounds",
+  "pin": "2569871ff906d2a2abfc86e97126ab9afe2e4a5a",
+  "upstream_code_executed": false,
+  "sources": [
+    {
+      "repository_path": "research/capped-phase-fusion/PHASE-LAYOUT-AUDIT.md",
+      "blob_sha": "bbeeee7431720817f031360f67b2186abac5cd23",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/2569871ff906d2a2abfc86e97126ab9afe2e4a5a/research/capped-phase-fusion/PHASE-LAYOUT-AUDIT.md",
+      "local_inert_copy": "upstream_inert/PHASE-LAYOUT-AUDIT.md.txt"
+    },
+    {
+      "repository_path": "research/capped-phase-fusion/MATRIX-LAYOUT-SIGNOFF.md",
+      "blob_sha": "d683e4d495330a2310e31b07c7dc896390334468",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/2569871ff906d2a2abfc86e97126ab9afe2e4a5a/research/capped-phase-fusion/MATRIX-LAYOUT-SIGNOFF.md",
+      "local_inert_copy": "upstream_inert/MATRIX-LAYOUT-SIGNOFF.md.txt"
+    },
+    {
+      "repository_path": "research/capped-phase-fusion/SUPPORT-ROUTER.md",
+      "blob_sha": "4f39fa9eaf553d1df5111de8c19bcf5bf9829c2b",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/2569871ff906d2a2abfc86e97126ab9afe2e4a5a/research/capped-phase-fusion/SUPPORT-ROUTER.md",
+      "local_inert_copy": "upstream_inert/SUPPORT-ROUTER.md.txt"
+    },
+    {
+      "repository_path": "research/capped-phase-fusion/evidence/phase_layout_audit_ultra/check_union.py",
+      "blob_sha": "0b3f0af7014dc23d8d80a82c67f2f7b24d3bd1ab",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/2569871ff906d2a2abfc86e97126ab9afe2e4a5a/research/capped-phase-fusion/evidence/phase_layout_audit_ultra/check_union.py",
+      "local_inert_copy": "upstream_inert/check_union.py.txt"
+    },
+    {
+      "repository_path": "research/capped-phase-fusion/evidence/phase_layout_audit_ultra/UNION-CONTROLS.json",
+      "blob_sha": "3607228a6d861228f0051a42b10a8a937eab8340",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/2569871ff906d2a2abfc86e97126ab9afe2e4a5a/research/capped-phase-fusion/evidence/phase_layout_audit_ultra/UNION-CONTROLS.json",
+      "local_inert_copy": "upstream_inert/UNION-CONTROLS.json.txt"
+    },
+    {
+      "repository_path": "research/capped-phase-fusion/evidence/independent_fusion_review_ultra/union_subreview.md",
+      "blob_sha": "04286a6198b050bd184be8afef3a85402b3aef93",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/2569871ff906d2a2abfc86e97126ab9afe2e4a5a/research/capped-phase-fusion/evidence/independent_fusion_review_ultra/union_subreview.md",
+      "local_inert_copy": "upstream_inert/union_subreview.md.txt"
+    },
+    {
+      "repository_path": "references/semantic-bulk/rad20/reports/bulk-resampling-tape-transfer.md",
+      "blob_sha": "7141f84808633e22760e6ca760302ec153f3770a",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/2569871ff906d2a2abfc86e97126ab9afe2e4a5a/references/semantic-bulk/rad20/reports/bulk-resampling-tape-transfer.md",
+      "local_inert_copy": "upstream_inert/bulk-resampling-tape-transfer.md.txt"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "repository": "Vlado-V/integer-mult-bounds",
+  "pin": "2569871ff906d2a2abfc86e97126ab9afe2e4a5a",
+  "path_root": "research/capped-phase-fusion",
+  "sources": [
+    {
+      "path": "PHASE-LAYOUT-AUDIT.md",
+      "sha": "bbeeee7431720817f031360f67b2186abac5cd23"
+    },
+    {
+      "path": "MATRIX-LAYOUT-SIGNOFF.md",
+      "sha": "d683e4d495330a2310e31b07c7dc896390334468"
+    },
+    {
+      "path": "CAPPED-INTERIORS.md",
+      "sha": "62c3fa27b61a648c65c9e3f6fc4dc95d7b05bd3e"
+    },
+    {
+      "path": "LOG-A-PHASE-SCHUR-AUDIT.md",
+      "sha": "3bcf490a8c164d44aff5b7e2ec2e0f4bf07d7a73"
+    },
+    {
+      "path": "CAPPED-GAUGE-AUDIT.md",
+      "sha": "a2d1c5ae923db7649627dbf419434e36267e57c6"
+    },
+    {
+      "path": "ALGEBRAIC-STABILITY-INDEPENDENT.md",
+      "sha": "abdd30cc1d6df2c41b9e8fda76f27f85200bbf9b"
+    },
+    {
+      "path": "BILATERAL-LDU.md",
+      "sha": "5cad6ee19f60d626beb9f6d7be78cbc22fdd08c6"
+    },
+    {
+      "path": "FORWARD-SMALL-A-AUDIT.md",
+      "sha": "0f7f80b3f74d469c2f72f3b9f338d32568b4eae3"
+    }
+  ],
+  "upstream_repository": "CrocSwap/integer-mult-bounds",
+  "upstream_repository_id": 1408136434,
+  "source_repository_id": 1418455770,
+  "relationship": "source fork holding the reviewed head of upstream PR #1673; distinct repositories, not rename or redirect",
+  "upstream_pull_request": 1673
+}

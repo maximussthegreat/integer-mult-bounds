@@ -1,0 +1,56 @@
+{
+  "status": "PASS_SCOPED_INDEPENDENT_REVIEW",
+  "release_files": [
+    {
+      "path": "AUDIT.md",
+      "bytes": 8005,
+      "sha256": "71d8ec758ffd6f8e0faf8a1ff4f653f8da1e4e206e9f77a479f4323265b7380f"
+    },
+    {
+      "path": "AUTHORED-SIMULATOR-REPAIRED.py",
+      "bytes": 18664,
+      "sha256": "3aa055a62d9cedd9908830c2f03d20677a4f1b1cb4163d7d58b06be103e6c8e5"
+    },
+    {
+      "path": "REVIEWED-PROOF.md",
+      "bytes": 21543,
+      "sha256": "be8e5cb47e1c07d86903fe91bb4d2a0d1bed59caecffff8593368a08c5dd84de"
+    },
+    {
+      "path": "independent_review.py",
+      "bytes": 5505,
+      "sha256": "3e5f2d136084822e331ba5c1e514616f95eeabae9cd9d259571d4e82ca350743"
+    },
+    {
+      "path": "direct_scalar_audit.py",
+      "bytes": 3116,
+      "sha256": "517215845305aab54ab9af8ea03ac011d8d51c44e22e486aaac57be44b30c886"
+    },
+    {
+      "path": "cost_audit.py",
+      "bytes": 2188,
+      "sha256": "3a9c2458a4c423ecf4b401792e052a52acec86824a80600b23833f2e35c5429e"
+    },
+    {
+      "path": "INDEPENDENT-RESULT.json",
+      "bytes": 1360,
+      "sha256": "a1e60d922d6de86848462a7075d0efa4139fe669ea8647822d6e31ef3983f9ec"
+    },
+    {
+      "path": "DIRECT-SCALAR-RESULT.json",
+      "bytes": 384,
+      "sha256": "f0042771eecac344c0721d4b51870b3f807f76f43acbeb346f805a01acf964b6"
+    },
+    {
+      "path": "COST-RESULT.json",
+      "bytes": 3482,
+      "sha256": "dced8ca9621ca05a72a1c30404d773dc88a2ab6be44eef54a29d3346979c14c3"
+    }
+  ],
+  "excluded_forensic_files": [
+    "AUTHORED-SIMULATOR-SNAPSHOT.py",
+    "INITIAL-REVIEW-RESULT.json"
+  ],
+  "limits": "AI-assisted finite and written-proof review; no full multiplication theorem, fast boundary arithmetic or upstream execution.",
+  "receipt_note": "Result hashes refreshed after clean relocated replay; reviewed source and proof unchanged."
+}

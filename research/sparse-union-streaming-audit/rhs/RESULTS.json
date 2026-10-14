@@ -1,0 +1,805 @@
+{
+  "status": "PASS",
+  "scope": "independent finite interface checks; no upstream execution",
+  "layout_cases": 48,
+  "algebra_cases": 8,
+  "layout": [
+    {
+      "e": 1,
+      "R": 1,
+      "q": 1,
+      "R_padded": 1,
+      "movement": 0,
+      "passes": 0
+    },
+    {
+      "e": 1,
+      "R": 1,
+      "q": 1,
+      "R_padded": 1,
+      "movement": 0,
+      "passes": 0
+    },
+    {
+      "e": 1,
+      "R": 3,
+      "q": 1,
+      "R_padded": 3,
+      "movement": 0,
+      "passes": 0
+    },
+    {
+      "e": 1,
+      "R": 1,
+      "q": 2,
+      "R_padded": 2,
+      "movement": 32,
+      "passes": 2
+    },
+    {
+      "e": 1,
+      "R": 2,
+      "q": 2,
+      "R_padded": 2,
+      "movement": 32,
+      "passes": 2
+    },
+    {
+      "e": 1,
+      "R": 5,
+      "q": 2,
+      "R_padded": 6,
+      "movement": 96,
+      "passes": 2
+    },
+    {
+      "e": 1,
+      "R": 1,
+      "q": 4,
+      "R_padded": 4,
+      "movement": 128,
+      "passes": 4
+    },
+    {
+      "e": 1,
+      "R": 4,
+      "q": 4,
+      "R_padded": 4,
+      "movement": 128,
+      "passes": 4
+    },
+    {
+      "e": 1,
+      "R": 9,
+      "q": 4,
+      "R_padded": 12,
+      "movement": 384,
+      "passes": 4
+    },
+    {
+      "e": 1,
+      "R": 1,
+      "q": 8,
+      "R_padded": 8,
+      "movement": 384,
+      "passes": 6
+    },
+    {
+      "e": 1,
+      "R": 8,
+      "q": 8,
+      "R_padded": 8,
+      "movement": 384,
+      "passes": 6
+    },
+    {
+      "e": 1,
+      "R": 17,
+      "q": 8,
+      "R_padded": 24,
+      "movement": 1152,
+      "passes": 6
+    },
+    {
+      "e": 3,
+      "R": 1,
+      "q": 1,
+      "R_padded": 1,
+      "movement": 0,
+      "passes": 0
+    },
+    {
+      "e": 3,
+      "R": 1,
+      "q": 1,
+      "R_padded": 1,
+      "movement": 0,
+      "passes": 0
+    },
+    {
+      "e": 3,
+      "R": 3,
+      "q": 1,
+      "R_padded": 3,
+      "movement": 0,
+      "passes": 0
+    },
+    {
+      "e": 3,
+      "R": 1,
+      "q": 2,
+      "R_padded": 2,
+      "movement": 96,
+      "passes": 2
+    },
+    {
+      "e": 3,
+      "R": 2,
+      "q": 2,
+      "R_padded": 2,
+      "movement": 96,
+      "passes": 2
+    },
+    {
+      "e": 3,
+      "R": 5,
+      "q": 2,
+      "R_padded": 6,
+      "movement": 288,
+      "passes": 2
+    },
+    {
+      "e": 3,
+      "R": 1,
+      "q": 4,
+      "R_padded": 4,
+      "movement": 384,
+      "passes": 4
+    },
+    {
+      "e": 3,
+      "R": 4,
+      "q": 4,
+      "R_padded": 4,
+      "movement": 384,
+      "passes": 4
+    },
+    {
+      "e": 3,
+      "R": 9,
+      "q": 4,
+      "R_padded": 12,
+      "movement": 1152,
+      "passes": 4
+    },
+    {
+      "e": 3,
+      "R": 1,
+      "q": 8,
+      "R_padded": 8,
+      "movement": 1152,
+      "passes": 6
+    },
+    {
+      "e": 3,
+      "R": 8,
+      "q": 8,
+      "R_padded": 8,
+      "movement": 1152,
+      "passes": 6
+    },
+    {
+      "e": 3,
+      "R": 17,
+      "q": 8,
+      "R_padded": 24,
+      "movement": 3456,
+      "passes": 6
+    },
+    {
+      "e": 17,
+      "R": 1,
+      "q": 1,
+      "R_padded": 1,
+      "movement": 0,
+      "passes": 0
+    },
+    {
+      "e": 17,
+      "R": 1,
+      "q": 1,
+      "R_padded": 1,
+      "movement": 0,
+      "passes": 0
+    },
+    {
+      "e": 17,
+      "R": 3,
+      "q": 1,
+      "R_padded": 3,
+      "movement": 0,
+      "passes": 0
+    },
+    {
+      "e": 17,
+      "R": 1,
+      "q": 2,
+      "R_padded": 2,
+      "movement": 544,
+      "passes": 2
+    },
+    {
+      "e": 17,
+      "R": 2,
+      "q": 2,
+      "R_padded": 2,
+      "movement": 544,
+      "passes": 2
+    },
+    {
+      "e": 17,
+      "R": 5,
+      "q": 2,
+      "R_padded": 6,
+      "movement": 1632,
+      "passes": 2
+    },
+    {
+      "e": 17,
+      "R": 1,
+      "q": 4,
+      "R_padded": 4,
+      "movement": 2176,
+      "passes": 4
+    },
+    {
+      "e": 17,
+      "R": 4,
+      "q": 4,
+      "R_padded": 4,
+      "movement": 2176,
+      "passes": 4
+    },
+    {
+      "e": 17,
+      "R": 9,
+      "q": 4,
+      "R_padded": 12,
+      "movement": 6528,
+      "passes": 4
+    },
+    {
+      "e": 17,
+      "R": 1,
+      "q": 8,
+      "R_padded": 8,
+      "movement": 6528,
+      "passes": 6
+    },
+    {
+      "e": 17,
+      "R": 8,
+      "q": 8,
+      "R_padded": 8,
+      "movement": 6528,
+      "passes": 6
+    },
+    {
+      "e": 17,
+      "R": 17,
+      "q": 8,
+      "R_padded": 24,
+      "movement": 19584,
+      "passes": 6
+    },
+    {
+      "e": 41,
+      "R": 1,
+      "q": 1,
+      "R_padded": 1,
+      "movement": 0,
+      "passes": 0
+    },
+    {
+      "e": 41,
+      "R": 1,
+      "q": 1,
+      "R_padded": 1,
+      "movement": 0,
+      "passes": 0
+    },
+    {
+      "e": 41,
+      "R": 3,
+      "q": 1,
+      "R_padded": 3,
+      "movement": 0,
+      "passes": 0
+    },
+    {
+      "e": 41,
+      "R": 1,
+      "q": 2,
+      "R_padded": 2,
+      "movement": 1312,
+      "passes": 2
+    },
+    {
+      "e": 41,
+      "R": 2,
+      "q": 2,
+      "R_padded": 2,
+      "movement": 1312,
+      "passes": 2
+    },
+    {
+      "e": 41,
+      "R": 5,
+      "q": 2,
+      "R_padded": 6,
+      "movement": 3936,
+      "passes": 2
+    },
+    {
+      "e": 41,
+      "R": 1,
+      "q": 4,
+      "R_padded": 4,
+      "movement": 5248,
+      "passes": 4
+    },
+    {
+      "e": 41,
+      "R": 4,
+      "q": 4,
+      "R_padded": 4,
+      "movement": 5248,
+      "passes": 4
+    },
+    {
+      "e": 41,
+      "R": 9,
+      "q": 4,
+      "R_padded": 12,
+      "movement": 15744,
+      "passes": 4
+    },
+    {
+      "e": 41,
+      "R": 1,
+      "q": 8,
+      "R_padded": 8,
+      "movement": 15744,
+      "passes": 6
+    },
+    {
+      "e": 41,
+      "R": 8,
+      "q": 8,
+      "R_padded": 8,
+      "movement": 15744,
+      "passes": 6
+    },
+    {
+      "e": 41,
+      "R": 17,
+      "q": 8,
+      "R_padded": 24,
+      "movement": 47232,
+      "passes": 6
+    }
+  ],
+  "algebra": [
+    {
+      "n": 24,
+      "W": 1,
+      "cap": 4,
+      "R": 7,
+      "cyclic": false,
+      "j": 8,
+      "e": 16,
+      "groups": [
+        1,
+        1,
+        1,
+        1,
+        4
+      ],
+      "q": 4,
+      "solve_products_per_batch": [
+        9,
+        9
+      ],
+      "shear_products_per_batch": [
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "geometry_prefixes_checked": 6,
+      "factor_norms": {
+        "L": "52489/52488",
+        "U": "5/4",
+        "L_inverse": "52489/52488",
+        "U_inverse": "1"
+      },
+      "counts": {
+        "page_products": 34,
+        "coefficient_records_loaded": 544,
+        "recursive_nodes": 1938,
+        "scalar_products": 1666
+      }
+    },
+    {
+      "n": 24,
+      "W": 1,
+      "cap": 4,
+      "R": 7,
+      "cyclic": true,
+      "j": 8,
+      "e": 16,
+      "groups": [
+        1,
+        1,
+        1,
+        1,
+        4
+      ],
+      "q": 4,
+      "solve_products_per_batch": [
+        14,
+        14
+      ],
+      "shear_products_per_batch": [
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "geometry_prefixes_checked": 6,
+      "factor_norms": {
+        "L": "11/9",
+        "U": "55/36",
+        "L_inverse": "11/9",
+        "U_inverse": "49662712548529881160000/49730930560272367260491"
+      },
+      "counts": {
+        "page_products": 44,
+        "coefficient_records_loaded": 704,
+        "recursive_nodes": 2508,
+        "scalar_products": 2156
+      }
+    },
+    {
+      "n": 34,
+      "W": 2,
+      "cap": 8,
+      "R": 11,
+      "cyclic": false,
+      "j": 10,
+      "e": 22,
+      "groups": [
+        2,
+        2,
+        2,
+        4
+      ],
+      "q": 4,
+      "solve_products_per_batch": [
+        10,
+        10,
+        10
+      ],
+      "shear_products_per_batch": [
+        [
+          6,
+          6,
+          6
+        ],
+        [
+          6,
+          6,
+          6
+        ]
+      ],
+      "geometry_prefixes_checked": 5,
+      "factor_norms": {
+        "L": "13362107367/13361588168",
+        "U": "338802066873056177320149749247/178894384542571939338905653856",
+        "L_inverse": "13362107367/13361588168",
+        "U_inverse": "486854005575545793829417902782324/515330879722041949069901250381593"
+      },
+      "counts": {
+        "page_products": 66,
+        "coefficient_records_loaded": 1056,
+        "recursive_nodes": 3762,
+        "scalar_products": 3234
+      }
+    },
+    {
+      "n": 34,
+      "W": 2,
+      "cap": 8,
+      "R": 11,
+      "cyclic": true,
+      "j": 10,
+      "e": 22,
+      "groups": [
+        2,
+        2,
+        2,
+        4
+      ],
+      "q": 4,
+      "solve_products_per_batch": [
+        14,
+        14,
+        14
+      ],
+      "shear_products_per_batch": [
+        [
+          6,
+          6,
+          6
+        ],
+        [
+          6,
+          6,
+          6
+        ]
+      ],
+      "geometry_prefixes_checked": 5,
+      "factor_norms": {
+        "L": "78316398204046497274577337226364475963927611410514725935932/63596878971458635044235705631040528101218828710757669558773",
+        "U": "119850809/58722264",
+        "L_inverse": "84052946929656554032782835828/68255246908744299237827986941",
+        "U_inverse": "993156544036876917899125040511096008/1187429898288394305647070519606038707"
+      },
+      "counts": {
+        "page_products": 78,
+        "coefficient_records_loaded": 1248,
+        "recursive_nodes": 4446,
+        "scalar_products": 3822
+      }
+    },
+    {
+      "n": 44,
+      "W": 2,
+      "cap": 8,
+      "R": 19,
+      "cyclic": false,
+      "j": 12,
+      "e": 28,
+      "groups": [
+        2,
+        2,
+        2,
+        2,
+        4
+      ],
+      "q": 4,
+      "solve_products_per_batch": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "shear_products_per_batch": [
+        [
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        [
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      ],
+      "geometry_prefixes_checked": 6,
+      "factor_norms": {
+        "L": "13362107367/13361588168",
+        "U": "4554935678289363239832646855029365275807/2405098712411015247883299264667324635388",
+        "L_inverse": "13362107367/13361588168",
+        "U_inverse": "4363587468795928418082446708775442561997796/4618820720968170377508809590302506861962081"
+      },
+      "counts": {
+        "page_products": 145,
+        "coefficient_records_loaded": 2320,
+        "recursive_nodes": 8265,
+        "scalar_products": 7105
+      }
+    },
+    {
+      "n": 44,
+      "W": 2,
+      "cap": 8,
+      "R": 19,
+      "cyclic": true,
+      "j": 12,
+      "e": 28,
+      "groups": [
+        2,
+        2,
+        2,
+        2,
+        4
+      ],
+      "q": 4,
+      "solve_products_per_batch": [
+        19,
+        19,
+        19,
+        19,
+        19
+      ],
+      "shear_products_per_batch": [
+        [
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        [
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      ],
+      "geometry_prefixes_checked": 6,
+      "factor_norms": {
+        "L": "22112690349442006509460796023984370588014415267338900690246175420317572849934693793850652772120756/17956623697406390081016894896028748249524882355192346947527071964538533999439221748326859236352287",
+        "U": "119850809/58722264",
+        "L_inverse": "4520111348421535953875499173878126044774/3670559182173795671063884343250163263847",
+        "U_inverse": "71211909943952915627394804238877871455734323848/85141815244915262052332088086085460783535385695"
+      },
+      "counts": {
+        "page_products": 175,
+        "coefficient_records_loaded": 2800,
+        "recursive_nodes": 9975,
+        "scalar_products": 8575
+      }
+    },
+    {
+      "n": 35,
+      "W": 2,
+      "cap": 8,
+      "R": 11,
+      "cyclic": false,
+      "j": 11,
+      "e": 23,
+      "groups": [
+        2,
+        2,
+        2,
+        5
+      ],
+      "q": 8,
+      "solve_products_per_batch": [
+        10,
+        10
+      ],
+      "shear_products_per_batch": [
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "geometry_prefixes_checked": 5,
+      "factor_norms": {
+        "L": "13362107367/13361588168",
+        "U": "2",
+        "L_inverse": "13362107367/13361588168",
+        "U_inverse": "5971133521456658336606181565827668/6275374658942369016713281205073051"
+      },
+      "counts": {
+        "page_products": 36,
+        "coefficient_records_loaded": 2304,
+        "recursive_nodes": 14400,
+        "scalar_products": 12348
+      }
+    },
+    {
+      "n": 35,
+      "W": 2,
+      "cap": 8,
+      "R": 11,
+      "cyclic": true,
+      "j": 11,
+      "e": 23,
+      "groups": [
+        2,
+        2,
+        2,
+        5
+      ],
+      "q": 8,
+      "solve_products_per_batch": [
+        14,
+        14
+      ],
+      "shear_products_per_batch": [
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "geometry_prefixes_checked": 5,
+      "factor_norms": {
+        "L": "259139629095248150668335111676472124032234005440859554697/220095107512681108679982163564621992278437164950511023098",
+        "U": "2",
+        "L_inverse": "411806407684801602271594225415/349759610018832940974665624641",
+        "U_inverse": "43342272126318527537365440207610960204/49356259980099471320326535489045769313"
+      },
+      "counts": {
+        "page_products": 44,
+        "coefficient_records_loaded": 2816,
+        "recursive_nodes": 17600,
+        "scalar_products": 15092
+      }
+    }
+  ],
+  "rejecting_controls": {
+    "bounded_completed_norm_unbounded_pivot": [
+      {
+        "k": 2,
+        "matrix_norm": "5/4",
+        "inverse_norm": "5/4",
+        "first_pivot_inverse": "4"
+      },
+      {
+        "k": 8,
+        "matrix_norm": "257/256",
+        "inverse_norm": "257/256",
+        "first_pivot_inverse": "256"
+      },
+      {
+        "k": 32,
+        "matrix_norm": "4294967297/4294967296",
+        "inverse_norm": "4294967297/4294967296",
+        "first_pivot_inverse": "4294967296"
+      },
+      {
+        "k": 128,
+        "matrix_norm": "340282366920938463463374607431768211457/340282366920938463463374607431768211456",
+        "inverse_norm": "340282366920938463463374607431768211457/340282366920938463463374607431768211456",
+        "first_pivot_inverse": "340282366920938463463374607431768211456"
+      }
+    ],
+    "partial_separator_bridge": [
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "one_rhs_padding_ratio_for_W_64": 64
+  }
+}

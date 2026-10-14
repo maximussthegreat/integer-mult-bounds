@@ -1,0 +1,28 @@
+{
+  "status": "PASS_CONDITIONAL_ANALYTIC_SCOPE",
+  "source_pin": "2569871ff906d2a2abfc86e97126ab9afe2e4a5a",
+  "reviewed_artifact_files": {
+    "AUDIT.md": "fd2ac03560b94b8132e51b28d4f0549db483122d47951f384fb56383f0a75c85",
+    "EXACT_CHECK.py": "61dfe45dfa1cbc83968725aff6e5177c76a9b27cba885b82f1aa6d03cd3618d0",
+    "FINAL_HASHES.json": "39daa0d0a41f5b3f5bdb40749dbd395c5622eae211dc351d8bd1d51d77b9f518",
+    "RELATION_TO_PRIOR_AUDIT.md": "740630972205008021759eba8216e52585e8883fc4f954ae05ff53cef680f126",
+    "RESULTS.json": "3fe5720e97a8114c0729fada497aef63cdf0529eaf6e72ef5478d522c2c541a4",
+    "SOURCES.json": "16854f595ddb4adf95a30e5646f5d18bd16dbb727724df9394859a5f78bf8d56",
+    "inert_sources/BILATERAL-LDU.md": "0d65e66d227464dda1a19f781ae0a0be671cbfd347c41e37ec954f3d629d8a77",
+    "inert_sources/CAPPED-GAUGE-AUDIT.md": "1030a34922709ab8d3434a4c57a4a58934ae268c237fb598cb415697da411c9f",
+    "inert_sources/FORWARD-SMALL-A-AUDIT.md": "e37aaa30b15671a1dff00676b14572213efaaac99df202dbba5e09f57af487c0",
+    "inert_sources/LOG-A-PHASE-SCHUR-AUDIT.md": "e05d6b8596c80b6e8676569a0ff464a29fa704c3304143f58914f47cdf38b272",
+    "inert_sources/OUTER-AUDIT.md": "94799bfa2794eb867d6ba68593c3e92988ade083e74d895e8d07ae3b8d0670dc",
+    "inert_sources/README.md": "91af88b8fc53a22e1e968908f0e449cdfe2154c83f0dddb8a504e661c0c6965c",
+    "inert_sources/SOURCES.json": "14ce6fdc7c83e18ccf4fee19ff51062726c960ca44462a45af60dd686167d456",
+    "inert_sources/gaussian_fixed_width_note.tex": "6f3edb7b238f2b6af4f3e2d98dee90fe6f4ba063a5ccd120422e45c941712aab",
+    "inert_sources/phase_fusion_note.tex": "b5957f38c98a68f2584a42cedf91d753180dab438129fdf749b441074f00d4e1"
+  },
+  "independent_checks": {
+    "replayed_finite_ldu_cases": 20,
+    "replayed_physical_completion_cases": 5,
+    "independent_nonintegral_q_cases": 442
+  },
+  "review_sha256": "ba7c9351fabfac32eea7b3f3c6a935f84b395141458b40a9bed46304c7207b63",
+  "independent_check_sha256": "e8ca294a93e3eaee23c6dc260b8fb523850d858d34c434ee30ff979e0752f548"
+}

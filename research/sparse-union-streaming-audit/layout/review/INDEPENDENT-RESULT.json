@@ -1,0 +1,63 @@
+{
+  "source": "AUTHORED-SIMULATOR-REPAIRED.py",
+  "source_sha256": "3aa055a62d9cedd9908830c2f03d20677a4f1b1cb4163d7d58b06be103e6c8e5",
+  "transpose": {
+    "cases": 297,
+    "binary_passes": 1260,
+    "maximum_live_tapes": 4,
+    "work_dirt_invariant": "Output independent of prior work cells; no restoration claim."
+  },
+  "operators": {
+    "cases": 33,
+    "basis_columns": 940,
+    "scope": "Random source supports, exact all-basis comparisons, custom dense rational maps; seeded proposal selection only."
+  },
+  "negative_controls": {
+    "detected": [
+      "wrong_ordinal",
+      "missing_rectangle_record",
+      "omitted_transpose",
+      "corrupted_merge_key"
+    ],
+    "coefficient_width_guard": true,
+    "dense_interlude": {
+      "input_basis": [
+        0,
+        1,
+        0
+      ],
+      "dense_A": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "correct_full_output": [
+        "0",
+        "1",
+        "1"
+      ],
+      "invalid_retained_union_output": [
+        "0",
+        "1",
+        "0"
+      ],
+      "first_escaping_coordinate": 2,
+      "detected": true,
+      "wrong_schedule_executed": true
+    }
+  },
+  "elapsed_seconds": 1.2949860095977783,
+  "status": "PASS_SCOPED_REVIEW"
+}

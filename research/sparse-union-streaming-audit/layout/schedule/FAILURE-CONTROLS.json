@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "controls": [
+    "truncated_symbolic_vector_rejected",
+    "extended_symbolic_vector_rejected",
+    "missing_real_zero_record_rejected",
+    "duplicate_real_zero_record_rejected",
+    "reversed_real_zero_records_rejected",
+    "padding_in_arithmetic_rejected"
+  ],
+  "scope": "Deliberately invalid streams and verifier widths; expected rejection, not positive schedule cases."
+}

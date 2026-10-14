@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "source_pin": "2569871ff906d2a2abfc86e97126ab9afe2e4a5a",
+  "commands": [
+    "python run_all.py (six authored programs; see ../CLEAN-RUN.json)"
+  ],
+  "source_not_executed": true,
+  "files": {
+    "sequential_union.py": "3aa055a62d9cedd9908830c2f03d20677a4f1b1cb4163d7d58b06be103e6c8e5",
+    "test_transpose_controls.py": "2496681248431a45b6ece48c284a8c8c3b7922bc2b6c5385d1ad66aa3602dfc8",
+    "test_failure_controls.py": "6822e4249d6e70bc21e24abce0c583617f4de41a07daffaac8019b1c97232778",
+    "RESULTS.json": "f971e0f922badc5b926b22044a5032deadd92412089580c89571c2679f6e9b3a",
+    "TRANSPOSE-CONTROLS.json": "05194e7988460d67b2d3bcd432ae4f6cad3f3665e8e66685ed262537e5bf166e",
+    "FAILURE-CONTROLS.json": "f89b8d1fe02bb387635a38771996536097c2a9ee816f20d7765ad2969e454263",
+    "SOURCES.json": "d613a04dc1eb89823caa3a48dc78e58f653540077798ea50c2d1887a57f82025",
+    "README.md": "3124cd7d947c694f903a9c1948112c97fb3e19057742ac240a9c2f8d9da5c288",
+    "FINAL-REPORT.md": "95f52049a9fee923afc09b045a7429d753340ff1126758804be3268c4ef31dc5"
+  },
+  "receipt_note": "Refreshed after clean relocated run; timings may differ from first run."
+}

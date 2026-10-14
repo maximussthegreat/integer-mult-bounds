@@ -1,0 +1,8 @@
+{
+  "status": "PASS_SEPARATE_DENSE_SCALAR_ORACLE",
+  "source_sha256": "3aa055a62d9cedd9908830c2f03d20677a4f1b1cb4163d7d58b06be103e6c8e5",
+  "cases": 20,
+  "per_axis_union_record_comparisons": 4614,
+  "peak_live_tapes": 6,
+  "scope": "Twenty deterministic rational scalar cases; complete values checked after every axis in three sweeps. Separate oracle, shared candidate scheduler."
+}

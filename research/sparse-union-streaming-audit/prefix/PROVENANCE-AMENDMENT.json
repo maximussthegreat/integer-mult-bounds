@@ -1,0 +1,7 @@
+{
+  "change": "Opening paragraph only: distinguish source fork Vlado-V/integer-mult-bounds from upstream CrocSwap/integer-mult-bounds.",
+  "reviewed_audit_sha256": "fd2ac03560b94b8132e51b28d4f0549db483122d47951f384fb56383f0a75c85",
+  "final_audit_sha256": "ddd06027a35798d8ffa3c26e3f95121cd473f06588245b681bb67781f2f6ed00",
+  "mathematical_text_changed": false,
+  "verification": "Unified diff inspected; only the opening provenance paragraph differs. Original independent-review hashes remain historical rather than silently rewritten."
+}

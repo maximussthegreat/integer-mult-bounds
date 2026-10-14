@@ -1,0 +1,11 @@
+{
+  "status": "FINAL_AUTHORED_ARTIFACTS_FROZEN",
+  "checks": "20 finite exact LDU cases and 5 exact physical completion cases passed; independent reviewer separately validated 442 real-q cases",
+  "files": {
+    "AUDIT.md": "ddd06027a35798d8ffa3c26e3f95121cd473f06588245b681bb67781f2f6ed00",
+    "RELATION_TO_PRIOR_AUDIT.md": "740630972205008021759eba8216e52585e8883fc4f954ae05ff53cef680f126",
+    "EXACT_CHECK.py": "61dfe45dfa1cbc83968725aff6e5177c76a9b27cba885b82f1aa6d03cd3618d0",
+    "RESULTS.json": "3fe5720e97a8114c0729fada497aef63cdf0529eaf6e72ef5478d522c2c541a4",
+    "SOURCES.json": "16854f595ddb4adf95a30e5646f5d18bd16dbb727724df9394859a5f78bf8d56"
+  }
+}

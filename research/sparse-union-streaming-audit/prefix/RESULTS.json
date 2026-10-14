@@ -1,0 +1,190 @@
+{
+  "status": "PASS_EXACT_FINITE_CONTROLS",
+  "finite_ldu_cases": 20,
+  "physical_completion_cases": 5,
+  "finite_cases": [
+    {
+      "origin": -6,
+      "size": 1,
+      "phase_changes": 0
+    },
+    {
+      "origin": -6,
+      "size": 2,
+      "phase_changes": 0
+    },
+    {
+      "origin": -6,
+      "size": 3,
+      "phase_changes": 0
+    },
+    {
+      "origin": -6,
+      "size": 4,
+      "phase_changes": 0
+    },
+    {
+      "origin": -6,
+      "size": 5,
+      "phase_changes": 1
+    },
+    {
+      "origin": -2,
+      "size": 1,
+      "phase_changes": 0
+    },
+    {
+      "origin": -2,
+      "size": 2,
+      "phase_changes": 0
+    },
+    {
+      "origin": -2,
+      "size": 3,
+      "phase_changes": 0
+    },
+    {
+      "origin": -2,
+      "size": 4,
+      "phase_changes": 0
+    },
+    {
+      "origin": -2,
+      "size": 5,
+      "phase_changes": 1
+    },
+    {
+      "origin": 0,
+      "size": 1,
+      "phase_changes": 0
+    },
+    {
+      "origin": 0,
+      "size": 2,
+      "phase_changes": 0
+    },
+    {
+      "origin": 0,
+      "size": 3,
+      "phase_changes": 1
+    },
+    {
+      "origin": 0,
+      "size": 4,
+      "phase_changes": 1
+    },
+    {
+      "origin": 0,
+      "size": 5,
+      "phase_changes": 1
+    },
+    {
+      "origin": 3,
+      "size": 1,
+      "phase_changes": 0
+    },
+    {
+      "origin": 3,
+      "size": 2,
+      "phase_changes": 0
+    },
+    {
+      "origin": 3,
+      "size": 3,
+      "phase_changes": 0
+    },
+    {
+      "origin": 3,
+      "size": 4,
+      "phase_changes": 1
+    },
+    {
+      "origin": 3,
+      "size": 5,
+      "phase_changes": 1
+    }
+  ],
+  "physical_cases": [
+    {
+      "physical_interval": [
+        -7,
+        -3
+      ],
+      "source_interval": [
+        -6,
+        -5,
+        -4,
+        -3
+      ],
+      "holes": [
+        -3
+      ],
+      "crosses_phase_cut": false
+    },
+    {
+      "physical_interval": [
+        -3,
+        3
+      ],
+      "source_interval": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "holes": [
+        -3,
+        2
+      ],
+      "crosses_phase_cut": true
+    },
+    {
+      "physical_interval": [
+        0,
+        6
+      ],
+      "source_interval": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "holes": [
+        2
+      ],
+      "crosses_phase_cut": true
+    },
+    {
+      "physical_interval": [
+        2,
+        7
+      ],
+      "source_interval": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "holes": [
+        2,
+        7
+      ],
+      "crosses_phase_cut": false
+    },
+    {
+      "physical_interval": [
+        2,
+        2
+      ],
+      "source_interval": [],
+      "holes": [
+        2
+      ],
+      "crosses_phase_cut": false
+    }
+  ],
+  "scope": "Exact rational identities only. No upstream code executed; no all-size claim derived from finite tests."
+}

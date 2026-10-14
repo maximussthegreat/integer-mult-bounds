@@ -1,0 +1,200 @@
+{
+  "status": "PASS_EXACT_MOVEMENT_FORMULAS",
+  "source_sha256": "3aa055a62d9cedd9908830c2f03d20677a4f1b1cb4163d7d58b06be103e6c8e5",
+  "cases": [
+    {
+      "L": 2,
+      "g": 1,
+      "E": [
+        []
+      ],
+      "P": 1,
+      "S": 1,
+      "N": 2,
+      "U": 0,
+      "observed": {
+        "outer": 12,
+        "inner": 0,
+        "transpose": 0,
+        "arithmetic": 0,
+        "coefficient_reads": 0
+      },
+      "expected": {
+        "outer": 12,
+        "inner": 0,
+        "transpose": 0,
+        "arithmetic": 0,
+        "coefficient_reads": 0
+      }
+    },
+    {
+      "L": 3,
+      "g": 1,
+      "E": [
+        [
+          2
+        ]
+      ],
+      "P": 1,
+      "S": 1,
+      "N": 3,
+      "U": 1,
+      "observed": {
+        "outer": 22,
+        "inner": 20,
+        "transpose": 0,
+        "arithmetic": 16,
+        "coefficient_reads": 2
+      },
+      "expected": {
+        "outer": 22,
+        "inner": 20,
+        "transpose": 0,
+        "arithmetic": 16,
+        "coefficient_reads": 2
+      }
+    },
+    {
+      "L": 4,
+      "g": 1,
+      "E": [
+        [
+          0,
+          1,
+          3
+        ]
+      ],
+      "P": 2,
+      "S": 3,
+      "N": 24,
+      "U": 18,
+      "observed": {
+        "outer": 216,
+        "inner": 360,
+        "transpose": 2208,
+        "arithmetic": 432,
+        "coefficient_reads": 108
+      },
+      "expected": {
+        "outer": 216,
+        "inner": 360,
+        "transpose": 2208,
+        "arithmetic": 432,
+        "coefficient_reads": 108
+      }
+    },
+    {
+      "L": 4,
+      "g": 3,
+      "E": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "P": 1,
+      "S": 1,
+      "N": 64,
+      "U": 62,
+      "observed": {
+        "outer": 632,
+        "inner": 3256,
+        "transpose": 7936,
+        "arithmetic": 2944,
+        "coefficient_reads": 704
+      },
+      "expected": {
+        "outer": 632,
+        "inner": 3256,
+        "transpose": 7936,
+        "arithmetic": 2944,
+        "coefficient_reads": 704
+      }
+    },
+    {
+      "L": 3,
+      "g": 3,
+      "E": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "P": 2,
+      "S": 2,
+      "N": 108,
+      "U": 108,
+      "observed": {
+        "outer": 1080,
+        "inner": 5616,
+        "transpose": 17856,
+        "arithmetic": 4608,
+        "coefficient_reads": 1008
+      },
+      "expected": {
+        "outer": 1080,
+        "inner": 5616,
+        "transpose": 17856,
+        "arithmetic": 4608,
+        "coefficient_reads": 1008
+      }
+    },
+    {
+      "L": 2,
+      "g": 4,
+      "E": [
+        [
+          0,
+          1
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "P": 1,
+      "S": 3,
+      "N": 48,
+      "U": 48,
+      "observed": {
+        "outer": 480,
+        "inner": 3456,
+        "transpose": 6144,
+        "arithmetic": 2688,
+        "coefficient_reads": 480
+      },
+      "expected": {
+        "outer": 480,
+        "inner": 3456,
+        "transpose": 6144,
+        "arithmetic": 2688,
+        "coefficient_reads": 480
+      }
+    }
+  ],
+  "scope": "Origin-aligned record-tape counters; setup, reference-check IO and symbol/header arithmetic excluded, local arithmetic charged separately."
+}

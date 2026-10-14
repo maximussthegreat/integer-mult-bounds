@@ -1,0 +1,14 @@
+{
+  "status": "PASS_SCOPED_SUPPLEMENT_REPLAY",
+  "date_utc": "2026-10-14",
+  "base_commit": "0b1cccf86e2f5132ed286a26ef0a681a495740ea",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "command": "python research/sparse-union-streaming-audit/verify.py",
+  "authored_check_programs": 9,
+  "isolated_temporary_copy": true,
+  "upstream_code_executed": false,
+  "selected_result_changed": false,
+  "new_kappa": false,
+  "full_multiplication_theorem": false,
+  "whitespace_check": "PASS with intentional Markdown hard-break spaces allowed; raw git diff --check reports only four such lines."
+}
